@@ -16,34 +16,42 @@
       <ConnectButton />
 
       <div class="btn-ml">
-        <NetworkButton @click="networkClickHandler" />
+        <!-- <NetworkButton @click="networkClickHandler" /> -->
+        <TokenButton :tokenName="'MIM'" />
       </div>
     </div>
 
     <nav>
-      <router-link :to="{ name: 'FarmStand' }" class="nav-link"
+      <!-- <router-link :to="{ name: 'FarmStand' }" class="nav-link"
         >farm</router-link
-      >
+      > -->
       <router-link :to="{ name: 'Stand' }" class="nav-link">borrow</router-link>
 
-      <a href="https://crv.to/pool" target="_blank" class="nav-link"
-        >MIM3POOL</a
+      <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
+        >Get xBOMB</a
       >
-      <a href="https://crv.to/" target="_blank" class="nav-link">Swap</a>
+      <a
+        href="https://app.1inch.io/#/56/classic/swap/MIM/BOMB"
+        target="_blank"
+        class="nav-link"
+        >Swap</a
+      >
 
       <!-- <router-link :to="{ name: 'Docs' }" class="nav-link">Docs</router-link>
       <router-link :to="{ name: 'Tech' }" class="nav-link">Tech</router-link> -->
-      <router-link :to="{ name: 'Liquidations' }" class="nav-link"
+      <!-- <router-link :to="{ name: 'Liquidations' }" class="nav-link"
         >Liquidations</router-link
-      >
-      <!-- <a href="#" class="nav-link" @click.prevent="showSwapPopup">Swap</a> -->
+      > -->
+      <!-- <a href="#" class="nav-link" @click.prevent="showSwapPopup">swap MIM</a>  -->
     </nav>
   </div>
 </template>
 
 <script>
-const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
+//const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
 const ConnectButton = () => import("@/components/UiComponents/ConnectButton");
+const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
+
 export default {
   watch: {
     $route() {
@@ -68,8 +76,9 @@ export default {
     },
   },
   components: {
-    NetworkButton,
+    //  NetworkButton,
     ConnectButton,
+    TokenButton,
   },
 };
 </script>
