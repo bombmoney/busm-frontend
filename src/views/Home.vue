@@ -4,24 +4,20 @@
       <div class="info-block">
         <img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />
         <div class="text-wrap">
-          <h1>Abracadabra.Money is a spell book</h1>
+          <h1>
+            This is a copy of Abracadabra.money website only to demonstrate
+            xBOMB integration.
+          </h1>
           <p class="blue-text">
-            that allows users to produce Magic Internet Money.
+            Contracts are production ready. MIM may need to be deposited to the
+            master contract clone in order to test. <br />
+            <a
+              href="https://bscscan.com/address/0x1f8fd4289423e273bc067af576bda66123de05b8#readContract"
+              title="contract" target="_blank"
+              >0x1f8fd4289423e273bc067af576bda66123de05b8</a
+            >
           </p>
 
-          <div class="subtext-wrap">
-            <p class="regular-text">
-              You, the Spellcaster, can provide collateral in the form of
-              various interest bearing crypto assets such as yvYFI, yvUSDT,
-              yvUSDC, xSUSHI and more.
-            </p>
-
-            <div class="regular-text">
-              With this, you can borrow magic internet money (MIM) which is a
-              stable coin that you can swap for any other traditional stable
-              coin.
-            </div>
-          </div>
         </div>
       </div>
       <img class="sect-image" src="@/assets/images/home-get-coins.svg" alt="" />
