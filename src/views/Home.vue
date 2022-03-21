@@ -9,7 +9,8 @@
             xBOMB integration.
           </h1>
           <p class="blue-text">
-            Contracts are production ready. MIM may need to be deposited to the
+            Contracts are production ready. Only tiny amount of MIM was deposited for testing. <br />
+            If no MIM is available, some will need to be deposited to the master
             master contract clone in order to test. <br />
             <a
               href="https://bscscan.com/address/0x1f8fd4289423e273bc067af576bda66123de05b8#readContract"
