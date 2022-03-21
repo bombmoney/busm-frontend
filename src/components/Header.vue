@@ -30,10 +30,10 @@
         >
 
         <a
-          href="https://app.1inch.io/#/56/classic/swap/MIM/BUSD"
+          href="https://app.1inch.io/#/56/classic/swap/MIM/BOMB"
           target="_blank"
           class="nav-link"
-          >swap</a
+          >swap MIM</a
         >
 
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
