@@ -15,9 +15,9 @@
       /></router-link>
 
       <nav>
-        <router-link :to="{ name: 'FarmStand' }" class="nav-link"
+        <!-- <router-link :to="{ name: 'FarmStand' }" class="nav-link"
           >farm</router-link
-        >
+        > -->
         <router-link :to="{ name: 'Stand' }" class="nav-link"
           >borrow</router-link
         >
@@ -25,11 +25,11 @@
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
           >MIM3POOL</router-link
         > -->
-        <a href="https://crv.to/pool" target="_blank" class="nav-link"
+        <!-- <a href="https://crv.to/pool" target="_blank" class="nav-link"
           >MIM3POOL</a
-        >
+        > -->
 
-        <a href="https://crv.to/" target="_blank" class="nav-link">swap</a>
+        <!-- <a href="https://crv.to/" target="_blank" class="nav-link">swap</a> -->
 
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
 
@@ -44,9 +44,9 @@
           </div>
         </div>
 
-        <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />
+        <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />
         <TokenButton :tokenName="'sSpell'" v-if="itsDashboard" />
-        <TokenButton :tokenName="'MIM'" />
+        <TokenButton :tokenName="'MIM'" /> -->
       </nav>
 
       <img
@@ -62,7 +62,7 @@
 <script>
 const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
 const ConnectButton = () => import("@/components/UiComponents/ConnectButton");
-const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
+//const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
 
 export default {
   computed: {
@@ -117,7 +117,7 @@ export default {
   components: {
     NetworkButton,
     ConnectButton,
-    TokenButton,
+  //  TokenButton,
   },
 };
 </script>

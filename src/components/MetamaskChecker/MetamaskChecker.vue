@@ -88,7 +88,7 @@ export default {
         (network) => network.chainId === chainId
       );
 
-      if (chainId !== "0x1") {
+      if (chainId !== "0x38") {
         this.$store.commit("setPopupState", {
           type: "wrong-network",
           isShow: true,
@@ -125,7 +125,7 @@ export default {
       this.$store.commit("setAccount", null);
       this.$store.commit("setWalletConnection", false);
       this.$store.commit("setChainId", null);
-      this.$store.commit("setActiveNetwork", "0x1");
+      this.$store.commit("setActiveNetwork", "0x38");
       this.$store.commit("setFarmPools", []);
       this.$store.commit("setPools", []);
       this.$store.commit("setSwapObject", null);

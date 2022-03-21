@@ -2,14 +2,14 @@ export default {
   state: {
     networks: [
       {
-        chainId: "0x1",
-        name: "ETH",
-        code: 1,
-      },
-      {
         chainId: "0x38",
         name: "BSC",
         code: 56,
+      },
+      {
+        chainId: "0x1",
+        name: "ETH",
+        code: 1,
       },
       {
         chainId: "0xfa",
@@ -17,7 +17,7 @@ export default {
         code: 250,
       },
     ],
-    activeNetwork: "0x1",
+    activeNetwork: "0x38",
   },
   mutations: {
     setActiveNetwork(state, payload) {

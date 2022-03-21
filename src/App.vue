@@ -31,11 +31,11 @@ const MetamaskChecker = () =>
   import("@/components/MetamaskChecker/MetamaskChecker");
 
 import poolsMixin from "@/mixins/pools.js";
-import farmPoolsMixin from "@/mixins/farmPools.js";
-import swapMixin from "@/mixins/swap.js";
+//import farmPoolsMixin from "@/mixins/farmPools.js";
+//import swapMixin from "@/mixins/swap.js";
 
 export default {
-  mixins: [poolsMixin, farmPoolsMixin, swapMixin],
+  mixins: [poolsMixin],
   data() {
     return {
       checkInProcess: true,
@@ -54,7 +54,7 @@ export default {
     async metamaskCheckSuccess() {
       console.log("CHECK COMPLETE");
       await this.createPools();
-      await this.createFarmPools();
+     // await this.createFarmPools();
       //.... await this.initSwap();
       this.checkInProcess = false;
       clearInterval(this.farmPoolsTimer);

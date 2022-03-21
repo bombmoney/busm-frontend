@@ -250,11 +250,7 @@ export default {
         return false;
       }
     },
-    async getOracleExchangeRate(
-      oracleId,
-      { multiply, divide, decimals },
-      tokenAddr
-    ) {
+    async getOracleExchangeRate(oracleId) {
       const oracleContractInfo = oracleContractsInfo.find(
         (item) => item.id === oracleId
       );
@@ -266,26 +262,26 @@ export default {
       );
 
       try {
-        const parsedDecimals = this.$ethers.BigNumber.from(
-          Math.pow(10, decimals).toLocaleString("fullwide", {
-            useGrouping: false,
-          })
-        );
+        // const parsedDecimals = this.$ethers.BigNumber.from(
+        //   Math.pow(10, decimals).toLocaleString("fullwide", {
+        //     useGrouping: false,
+        //   })
+        // );
 
-        let reqObj;
+        // let reqObj;
 
-        if (oracleId === 1) {
-          reqObj = [multiply, divide, parsedDecimals, tokenAddr];
-        }
+        // if (oracleId === 1) {
+        //   reqObj = [];
+        // }
 
-        if (oracleId === 2) {
-          reqObj = [multiply, divide, parsedDecimals]; //xSUSHI pool
-        }
+        // if (oracleId === 2) {
+        //   reqObj = [multiply, divide, parsedDecimals]; //xSUSHI pool
+        // }
 
-        const bytesData = await oracleContract.getDataParameter(...reqObj, {
-          gasLimit: 300000,
-        });
-
+        // const bytesData = await oracleContract.getDataParameter("0x", {
+        //   gasLimit: 300000,
+        // });
+        const bytesData = "0x";
         const rate = await oracleContract.peekSpot(bytesData, {
           gasLimit: 300000,
         });

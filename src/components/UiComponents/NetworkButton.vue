@@ -7,35 +7,35 @@
 </template>
 
 <script>
-import ethIcon from "@/assets/images/networks/ethereum-icon.svg";
+//import ethIcon from "@/assets/images/networks/ethereum-icon.svg";
 import binanceIcon from "@/assets/images/networks/binance-icon.svg";
-import fantomIcon from "@/assets/images/networks/fantom-icon.svg";
+//import fantomIcon from "@/assets/images/networks/fantom-icon.svg";
 
 export default {
   props: {
     networkType: {
       type: String,
-      default: "0x1",
+      default: "0x38",
     },
   },
   data() {
     return {
       networks: [
-        {
-          chainid: "0x1",
-          title: "ERC-20",
-          icon: ethIcon,
-        },
+        // {
+        //   chainid: "0x1",
+        //   title: "ERC-20",
+        //   icon: ethIcon,
+        // },
         {
           chainid: "0x38",
           title: "BSC",
           icon: binanceIcon,
         },
-        {
-          chainid: "0xfa",
-          title: "FANTOM",
-          icon: fantomIcon,
-        },
+        // {
+        //   chainid: "0xfa",
+        //   title: "FANTOM",
+        //   icon: fantomIcon,
+        // },
       ],
     };
   },
