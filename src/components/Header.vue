@@ -25,11 +25,16 @@
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
           >MIM3POOL</router-link
         > -->
-        <!-- <a href="https://crv.to/pool" target="_blank" class="nav-link"
-          >MIM3POOL</a
-        > -->
+        <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
+          >Get xBOMB</a
+        >
 
-        <!-- <a href="https://crv.to/" target="_blank" class="nav-link">swap</a> -->
+        <a
+          href="https://app.1inch.io/#/56/classic/swap/MIM/BUSD"
+          target="_blank"
+          class="nav-link"
+          >swap</a
+        >
 
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
 
