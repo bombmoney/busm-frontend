@@ -14,7 +14,7 @@
 
     <p class="subtitle">
       Change to<br />
-      Ethereum Mainnet
+      BSC Network
     </p>
 
     <img src="@/assets/images/browser-warn-logo.svg" alt="" class="main-img" />
