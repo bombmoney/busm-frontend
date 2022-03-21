@@ -9,8 +9,8 @@
             xBOMB integration.
           </h1>
           <p class="blue-text">
-            Contracts are production ready. Only tiny amount of MIM was
-            deposited for testing. <br />
+            Contracts are production ready. Only 700 MIM was deposited for
+            testing. <br />
             If no MIM is available, some will need to be deposited to the master
             contract clone in order to borrow. <br />
             <a
