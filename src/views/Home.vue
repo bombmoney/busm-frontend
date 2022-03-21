@@ -9,16 +9,17 @@
             xBOMB integration.
           </h1>
           <p class="blue-text">
-            Contracts are production ready. Only tiny amount of MIM was deposited for testing. <br />
+            Contracts are production ready. Only tiny amount of MIM was
+            deposited for testing. <br />
             If no MIM is available, some will need to be deposited to the master
-            master contract clone in order to test. <br />
+            contract clone in order to borrow. <br />
             <a
               href="https://bscscan.com/address/0x1f8fd4289423e273bc067af576bda66123de05b8#readContract"
-              title="contract" target="_blank"
+              title="contract"
+              target="_blank"
               >0x1f8fd4289423e273bc067af576bda66123de05b8</a
             >
           </p>
-
         </div>
       </div>
       <img class="sect-image" src="@/assets/images/home-get-coins.svg" alt="" />
