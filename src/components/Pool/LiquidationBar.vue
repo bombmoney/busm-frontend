@@ -8,7 +8,7 @@
         alt=""
         class="info-icon"
         v-tooltip="
-          'This mana bar displays how healthy your position is. If it is empty, you will be flagged for liquidation. Stable ibTKNs Mana bar is enlarged by 10x to allow better visual representation.'
+          'This mana bar displays how healthy your position is. If it is empty, you will be flagged for liquidation. Stable xBOMBs Mana bar is enlarged by 10x to allow better visual representation.'
         "
       />
     </div>

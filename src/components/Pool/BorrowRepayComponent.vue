@@ -80,7 +80,7 @@
           src="@/assets/images/i-icon.svg"
           alt=""
           class="info-icon"
-          v-tooltip="'Update ibTKN price for a small gas fee'"
+          v-tooltip="'Update xBOMB price for a small gas fee'"
         />
       </div>
 

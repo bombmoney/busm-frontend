@@ -1,6 +1,6 @@
 export default [
   {
-    name: "xBombOracle",
+    name: "BombOracle",
     id: 1,
     contractChain: "0x38",
     address: "0x3eBa42e813c82857F412c7bCE33BE2FBdC18cDf0",

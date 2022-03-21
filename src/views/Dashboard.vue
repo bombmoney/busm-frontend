@@ -7,9 +7,9 @@
         <p>Transactions</p>
       </div>
 
-      <template v-if="sSpellTokenObject">
+      <!-- <template v-if="sSpellTokenObject">
         <TokenBlock :tokensInfo="sSpellTokenObject" />
-      </template>
+      </template> -->
 
       <template v-if="pools">
         <StatisticsBlock :pools="userPools" />
@@ -50,21 +50,21 @@
 const StatisticsBlock = () => import("@/components/Dashboard/StatisticsBlock");
 const OpenPoolItem = () => import("@/components/Dashboard/OpenPoolItem");
 const EmptyPoolsState = () => import("@/components/Dashboard/EmptyPoolsState");
-const TokenBlock = () => import("@/components/Dashboard/TokenBlock");
+//const TokenBlock = () => import("@/components/Dashboard/TokenBlock");
 
-import sspellToken from "@/mixins/sspellToken.js";
+//import sspellToken from "@/mixins/sspellToken.js";
 
 export default {
-  mixins: [sspellToken],
+  mixins: [],
   data() {
     return {
       shortcutState: "borrow",
     };
   },
   computed: {
-    sSpellTokenObject() {
-      return this.$store.getters.getSSpellObject;
-    },
+    // sSpellTokenObject() {
+    //   return this.$store.getters.getSSpellObject;
+    // },
     pools() {
       return this.$store.getters.getPools;
     },
@@ -109,14 +109,14 @@ export default {
       alert("Connect wallet first");
       return false;
     }
-    await this.createStakePool();
+   // await this.createStakePool();
   },
   mounted() {},
   components: {
     StatisticsBlock,
     OpenPoolItem,
     EmptyPoolsState,
-    TokenBlock,
+   // TokenBlock,
   },
 };
 </script>

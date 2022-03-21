@@ -11,12 +11,12 @@
           <p>
             Abracadabra is a decentralized protocol that allows wizards to mint
             the stablecoin $MIM using a variety of interest bearing tokens
-            (ibTKNS) as collateral.
+            (xBOMBS) as collateral.
           </p>
 
           <h3 class="title">Why is this useful?</h3>
           <p>
-            Many crypto wizards have funds and capital locked away in ibTKNs for
+            Many crypto wizards have funds and capital locked away in xBOMBs for
             a myriad of reasons. Perhaps, they just want the yield. Perhaps,
             they want voting and governance powers. Perhaps they just want to
             support the respective protocols by locking up the tokens.
@@ -37,7 +37,7 @@
       <p>
         Abracadabra runs on the following tokens; Magic Internet Money (MIM),
         SPELL (which can be staked for sSPELL), and a variety of other
-        protocol’s ibTKNs.
+        protocol’s xBOMBs.
       </p>
 
       <div class="row">
@@ -49,7 +49,7 @@
         <div class="text-wrap">
           <h3 class="title">Magic Internet Money</h3>
           <p>
-            MIM is the stable coin borrowed against ibTKNs. It has a max supply
+            MIM is the stable coin borrowed against xBOMBs. It has a max supply
             of infinity. Meaning there is no max supply. It’s magic internet
             money after all. The token is pegged to the USD and every time 1 MIM
             is borrowed its value is pegged to USD. It is also always redeemed
@@ -65,7 +65,7 @@
           <p>
             First and foremost sSPELL tokens grant holders voting rights in the
             governance of the protocol. As of present, governance is used for
-            deciding on which ibTKNs are suitable for use as collateral in the
+            deciding on which xBOMBs are suitable for use as collateral in the
             Spellbook. (more on this below)
           </p>
           <p>
@@ -81,9 +81,9 @@
       <h3 class="title">Interest Bearing Tokens</h3>
 
       <p>
-        ibTKNs come from third party protocols such as Yearn.finance and
-        Sushiswap. Governance will decide on all the protocols and ibTKNs that
-        will be utilized as time progresses. ibTKNs are what the protocol users
+        xBOMBs come from third party protocols such as Yearn.finance and
+        Sushiswap. Governance will decide on all the protocols and xBOMBs that
+        will be utilized as time progresses. xBOMBs are what the protocol users
         use to open collateralized debt positions (CDPs). To learn more about
         CDPs read here
       </p>
@@ -147,8 +147,8 @@
           <p class="mini">
             NOTE: Currently Abracadabra Money is deployed on Ethereum, Binance
             Smart Chain, Fantom Opera, but is only available on Ethereum as
-            there are not enough ibTKN with reliable track records on other
-            block chains. Adding ibTKN on the other blockchains will be a
+            there are not enough xBOMB with reliable track records on other
+            block chains. Adding xBOMB on the other blockchains will be a
             function of future governance.
           </p>
         </div>
@@ -174,19 +174,19 @@
       <img src="@/assets/images/docs/borrow-img.png" alt="" class="full-img" />
 
       <p>
-        Here you will see a list of ibTKNs that are used as collateral for
+        Here you will see a list of xBOMBs that are used as collateral for
         minting MIM. From left to right we see:
       </p>
 
       <div class="info-items-wrap">
         <div class="info-item">
-          <p>Pool - This is then name of the ibTKN</p>
+          <p>Pool - This is then name of the xBOMB</p>
         </div>
         <div class="info-item">
           <p>
             Available to Borrow - Here we see the number of MIM tokens that can
             still be minted from this collateral type. To reduce risk, and to
-            ensure that MIM tokens are backed by a variety of ibTKNs, each
+            ensure that MIM tokens are backed by a variety of xBOMBs, each
             collateral has its own individual maximum allowance. These
             allowances can be increased via governance.
           </p>
@@ -195,7 +195,7 @@
           <p>
             Loan to Value ratio (LTV) - This shows the maximum amount of value
             that this collateral can grant to the minting of MIM. For example,
-            an ibTKN when a TVL of 75% can only mint at most, 75% of its value
+            an xBOMB when a TVL of 75% can only mint at most, 75% of its value
             in MIM before being flagged for liquidation. (more liquidations
             below)
           </p>
@@ -272,7 +272,7 @@
 
       <p>
         When you are ready to cast your first summoning spell, click anywhere on
-        the ibTKN section that houses the ibTKN you wish to use as your
+        the xBOMB section that houses the xBOMB you wish to use as your
         collateral.
       </p>
       <p>You will be taken to a page that looks like the following.</p>
@@ -318,7 +318,7 @@
       </p>
 
       <p class="small-text">
-        Finally, we see the BORROW button, which will deposit of your ibTKNs
+        Finally, we see the BORROW button, which will deposit of your xBOMBs
         into Abracadabra and Transfer MIM to your wallet, and open your CDP.
       </p>
 
@@ -383,7 +383,7 @@
         acroos all CDPs.
       </p>
       <p class="small-text">
-        The OPEN DEALs displays the different ibTKN that have been used to open
+        The OPEN DEALs displays the different xBOMB that have been used to open
         CDPs
       </p>
       <p class="small-text">
@@ -393,7 +393,7 @@
       <p class="small-text">
         The bottom section will display a number of small windows equal to an
         individual's currently opened CDPs. Here wizards can borrow more MIM
-        versus their ibTKNs or repay some of their owed MIM.
+        versus their xBOMBs or repay some of their owed MIM.
       </p>
     </div>
   </div>

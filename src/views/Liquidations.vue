@@ -22,22 +22,22 @@
         </p>
 
         <p>
-          To clarify, if a wizard opens two CDPs with different ibTKNs, or even
-          two CDPs with the same type of ibTKNs, they are able to borrow MIMs
-          versus those ibTKNs individually, and set their risk tolerance
-          accordingly. So if they believe a certain ibTKN has a higher chance of
+          To clarify, if a wizard opens two CDPs with different xBOMBs, or even
+          two CDPs with the same type of xBOMBs, they are able to borrow MIMs
+          versus those xBOMBs individually, and set their risk tolerance
+          accordingly. So if they believe a certain xBOMB has a higher chance of
           decreasing in value, they can choose to borrow less MIM versus that.
         </p>
 
         <p>
-          That being said, there are still times when a wizards ibTKN collateral
+          That being said, there are still times when a wizards xBOMB collateral
           value will fall below the Loan to Value ratio (LTV) and thus be
           flagged for liquidation. In this event, 3rd party players (usually
           bots) can choose to repay all of the MIM debt in exchange for the
-          ibTKN collateral used for that specific CDP. To incentivise these 3rd
+          xBOMB collateral used for that specific CDP. To incentivise these 3rd
           parties, which keep the protocol healthy, wizards are not permitted to
           borrow 100% of their value and the difference between the value of the
-          ibTKN and the MIM will be claimed by the liquidators.
+          xBOMB and the MIM will be claimed by the liquidators.
         </p>
       </div>
     </div>
@@ -69,7 +69,7 @@
       <h3 class="title">Let's use some numbers.</h3>
 
       <p>
-        Merlin the wizard has some yvWETH (an ibTKN) of a value of 1000 USD.
+        Merlin the wizard has some yvWETH (an xBOMB) of a value of 1000 USD.
         This token has LTV of 75%. Merlin is a mad wizard and he decides to
         borrow the maximum allowance and receives 750 MIM tokens which he uses
         to buy ink for his magic spell book.
@@ -108,23 +108,23 @@
       <h3 class="title">They are:</h3>
 
       <p>
-        Abracadabra uses ibTKN that go up in value on their own regardless of
+        Abracadabra uses xBOMB that go up in value on their own regardless of
         price action.
       </p>
       <p>
         MIM has interest so if a collateral, for some reason or another, does
         not increase in value, liquidations can happen. To reduce this risk, the
-        team has selected ibTKNs that have a track record of increasing in value
+        team has selected xBOMBs that have a track record of increasing in value
         at a rate that far exceeds the interest rate on MIM debt.
       </p>
       <p>
-        Price action of underlying tokens in some of the ibTKNs can be quite
+        Price action of underlying tokens in some of the xBOMBs can be quite
         volatile. To reduce this risk, the team has set tokens that have price
         action to a LTV maximum of 75%
       </p>
       <p>
-        Abracadabra allows for the use of ibTKN with underlying stablecoins as
-        collateral with a LTV of 90%. Although it may unlikely that these ibTKNs
+        Abracadabra allows for the use of xBOMB with underlying stablecoins as
+        collateral with a LTV of 90%. Although it may unlikely that these xBOMBs
         will decrease in USD value it’s not an impossibility as the underlying
         tkns may lose their price peggs from unforeseeable events. The 90%
         maximum also, incentives 3rd parties to liquidate these positions when

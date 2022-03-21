@@ -16,9 +16,9 @@
           <h3 class="title">ORACLES</h3>
 
           <p>
-            Abracadabra Money uses ibTKN to open CDPs that reference the USD
-            value of these ibTKNS. As a result, reliable price feed for these
-            ibTKNs are required.
+            Abracadabra Money uses xBOMB to open CDPs that reference the USD
+            value of these xBOMBS. As a result, reliable price feed for these
+            xBOMBs are required.
           </p>
 
           <h3 class="title">Abracadabra Money uses the following Oracles.</h3>
