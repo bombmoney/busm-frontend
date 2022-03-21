@@ -1,10 +1,11 @@
 export default [
   {
     name: "MIM",
-    address: "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+    address: "0xfE19F0B51438fd612f6FD59C1dbB3eA319f433Ba",
     symbol: "MIM",
     decimals: 18,
-    image: "https://abracadabra.money/mimlogosvg",
+    image:
+      "https://fra1.digitaloceanspaces.com/static.popsicle.finance/mimlogopng.png",
   },
   {
     name: "Spell",

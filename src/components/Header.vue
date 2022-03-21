@@ -45,8 +45,8 @@
         </div>
 
         <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />
-        <TokenButton :tokenName="'sSpell'" v-if="itsDashboard" />
-        <TokenButton :tokenName="'MIM'" /> -->
+        <TokenButton :tokenName="'sSpell'" v-if="itsDashboard" /> -->
+        <TokenButton :tokenName="'MIM'" />
       </nav>
 
       <img
@@ -62,7 +62,7 @@
 <script>
 const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
 const ConnectButton = () => import("@/components/UiComponents/ConnectButton");
-//const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
+const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
 
 export default {
   computed: {
@@ -117,7 +117,7 @@ export default {
   components: {
     NetworkButton,
     ConnectButton,
-  //  TokenButton,
+    TokenButton,
   },
 };
 </script>
