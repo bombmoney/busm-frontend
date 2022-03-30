@@ -25,9 +25,9 @@
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
           >MIM3POOL</router-link
         > -->
-        <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
+        <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
           >Get xBOMB</a
-        >
+        > -->
 
         <a
           href="https://app.1inch.io/#/56/classic/swap/MIM/BOMB"

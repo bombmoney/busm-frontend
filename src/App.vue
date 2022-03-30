@@ -54,7 +54,7 @@ export default {
     async metamaskCheckSuccess() {
       console.log("CHECK COMPLETE");
       await this.createPools();
-     // await this.createFarmPools();
+      // await this.createFarmPools();
       //.... await this.initSwap();
       this.checkInProcess = false;
       clearInterval(this.farmPoolsTimer);

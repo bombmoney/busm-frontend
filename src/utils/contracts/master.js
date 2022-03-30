@@ -2,7 +2,7 @@ export default [
   {
     name: "DegenBox",
     contractChain: "0x38",
-    address: "0x090185f2135308BaD17527004364eBcC2D37e5F6",
+    address: "0x66a5224A941bC56dccDAf6C37f29f3e4bCB8f9EB",
     abi: [
       {
         inputs: [

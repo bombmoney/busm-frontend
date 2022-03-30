@@ -22,14 +22,11 @@
     </div>
 
     <nav>
-      <!-- <router-link :to="{ name: 'FarmStand' }" class="nav-link"
-        >farm</router-link
-      > -->
       <router-link :to="{ name: 'Stand' }" class="nav-link">borrow</router-link>
 
-      <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
+      <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
         >Get xBOMB</a
-      >
+      > -->
       <a
         href="https://app.1inch.io/#/56/classic/swap/MIM/BOMB"
         target="_blank"

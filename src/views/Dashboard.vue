@@ -109,14 +109,14 @@ export default {
       alert("Connect wallet first");
       return false;
     }
-   // await this.createStakePool();
+    // await this.createStakePool();
   },
   mounted() {},
   components: {
     StatisticsBlock,
     OpenPoolItem,
     EmptyPoolsState,
-   // TokenBlock,
+    // TokenBlock,
   },
 };
 </script>
