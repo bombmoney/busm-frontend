@@ -29,9 +29,9 @@
       <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
         >Get xBOMB</a
       > -->
-      <a href="https://docs.busm.money/" target="_blank" class="nav-link"
+      <!-- <a href="https://docs.busm.money/" target="_blank" class="nav-link"
         >Docs</a
-      >
+      > -->
       <a
         href="https://app.1inch.io/#/56/swap/0x6216B17f696B14701E17BCB24Ec14430261Be94A/BOMB"
         target="_blank"
