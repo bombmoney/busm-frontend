@@ -50,19 +50,19 @@ const routes = [
     },
     component: () => import("../views/Dashboard.vue"),
   },
-  // {
-  //   path: "/transactions",
-  //   name: "Transactions",
-  //   meta: {
-  //     needConnection: true,
-  //   },
-  //   component: () => import("../views/Transactions.vue"),
-  // },
-  // {
-  //   path: "/docs",
-  //   name: "Docs",
-  //   component: () => import("../views/Docs.vue"),
-  // },
+  {
+    path: "/transactions",
+    name: "Transactions",
+    meta: {
+      needConnection: true,
+    },
+    component: () => import("../views/Transactions.vue"),
+  },
+  {
+    path: "/docs",
+    name: "Docs",
+    component: () => import("../views/Docs.vue"),
+  },
   // {
   //   path: "/tech",
   //   name: "Tech",
