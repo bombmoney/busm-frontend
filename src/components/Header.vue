@@ -19,7 +19,7 @@
           >farm</router-link
         > -->
         <router-link :to="{ name: 'Stand' }" class="nav-link"
-          >borrow</router-link
+          >Get BUSM</router-link
         >
 
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"

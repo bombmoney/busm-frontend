@@ -95,7 +95,7 @@ export default {
   data() {
     return {
       actionType: "borrow",
-      // pool: null,
+      //pool: 1,
       gasLimitConst: 1000,
     };
   },
