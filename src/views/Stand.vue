@@ -6,7 +6,7 @@
 
     <div class="container mini">
       <div class="stand-group">
-        <h1>LET’S SUMMON SOME MIM<span>s</span></h1>
+        <h1>LET’S SUMMON SOME BUSM<span>s</span></h1>
 
         <StandTable :tableType="2" :items="pools" />
       </div>

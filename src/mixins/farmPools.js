@@ -281,7 +281,7 @@ export default {
         return priceResp.spell;
       }
 
-      if (token === "MIM") {
+      if (token === "BUSM") {
         return 1;
       }
     },

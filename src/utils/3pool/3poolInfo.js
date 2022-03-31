@@ -1,6 +1,6 @@
 export default [
   {
-    name: "MIM3Pool",
+    name: "BUSM3Pool",
     poolChain: "0x1",
     contract: {
       name: "Vyper_contract",
@@ -790,7 +790,7 @@ export default [
     poolAddress: "0x5a6a4d54456819380173272a5e8e9b9904bdf41b",
     tokens: [
       {
-        name: "MIM",
+        name: "BUSM",
         tokenIdx: 0,
         decimals: 18,
         address: "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",

@@ -15,14 +15,14 @@
       <div class="links-wrap">
         <a
           target="_blank"
-          href="https://medium.com/abracadabra-money"
+          href="https://bombbshare.medium.com/"
           class="link-item"
         >
           <img src="@/assets/images/medium-pixel.svg" alt="" />
         </a>
         <a
           target="_blank"
-          href="https://twitter.com/MIM_Spell"
+          href="https://twitter.com/BombMoneyBSC"
           class="link-item ml"
         >
           <img src="@/assets/images/twitter-pixel.svg" alt="" />

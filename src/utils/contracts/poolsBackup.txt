@@ -3363,7 +3363,7 @@ export default [
         },
         {
           inputs: [],
-          name: "MIM",
+          name: "BUSM",
           outputs: [
             { internalType: "contract IERC20", name: "", type: "address" },
           ],
@@ -3372,7 +3372,7 @@ export default [
         },
         {
           inputs: [],
-          name: "MIM3POOL",
+          name: "BUSM3POOL",
           outputs: [
             { internalType: "contract CurvePool", name: "", type: "address" },
           ],
@@ -4795,7 +4795,7 @@ export default [
       ],
     },
     pairToken: {
-      name: "MIM",
+      name: "BUSM",
       decimals: 18,
       address: "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
       abi: [
@@ -5071,7 +5071,7 @@ export default [
         },
         {
           inputs: [],
-          name: "MIM",
+          name: "BUSM",
           outputs: [
             { internalType: "contract IERC20", name: "", type: "address" },
           ],
@@ -5080,7 +5080,7 @@ export default [
         },
         {
           inputs: [],
-          name: "MIM3POOL",
+          name: "BUSM3POOL",
           outputs: [
             { internalType: "contract CurvePool", name: "", type: "address" },
           ],

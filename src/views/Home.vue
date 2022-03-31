@@ -9,10 +9,10 @@
             xBOMB integration.
           </h1>
           <p class="blue-text">
-            Contracts are production ready. Only 700 MIM was deposited for
+            Contracts are production ready. Only 700 BUSM was deposited for
             testing. <br />
-            If no MIM is available, some will need to be deposited to the master
-            contract clone in order to borrow. <br />
+            If no BUSM is available, some will need to be deposited to the
+            master contract clone in order to borrow. <br />
             <a
               href="https://bscscan.com/address/0x1f8fd4289423e273bc067af576bda66123de05b8#readContract"
               title="contract"
@@ -51,8 +51,8 @@
         <img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />
         <div class="text-wrap">
           <h1>
-            TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED MIMS TO
-            THE SPELL BOOK. THEN THE MAGICALLY LOCKED INTEREST BEARING TOKENS
+            TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED BUSMS
+            TO THE SPELL BOOK. THEN THE MAGICALLY LOCKED INTEREST BEARING TOKENS
             ARE RELEASED.
           </h1>
         </div>

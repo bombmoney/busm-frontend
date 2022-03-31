@@ -306,9 +306,9 @@ export default {
         },
         {
           title: "Borrow fee",
-          value: `0.05%`,
+          value: `0.5%`,
           additional:
-            "This fee is added to your debt every time you borrow MIM. As an example, if you borrow 1000 MIM your debt will immediately increase by 0.50MIM and  become 1000.50MIM",
+            "This fee is added to your debt every time you borrow BUSM. As an example, if you borrow 1000 BUSM your debt will immediately increase by 0.50BUSM and  become 1000.50BUSM",
         },
         {
           title: "Interest",
@@ -350,7 +350,7 @@ export default {
           additional: "",
         },
         {
-          title: "MIM borrowed",
+          title: "BUSM borrowed",
           value: `$${parseFloat(userBorrowPart).toFixed(4)}`,
           additional: "",
         },
@@ -360,7 +360,7 @@ export default {
           additional: "",
         },
         {
-          title: "MIM left to borrow",
+          title: "BUSM left to borrow",
           value: `${borrowLeftParsed}`,
           additional: "",
         },

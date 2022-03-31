@@ -1,7 +1,7 @@
 <template>
   <div
     class="token-icon-wrap"
-    :class="{ 'mim-wrap': token === 'MIM' || full, pair: itsGroup, mini }"
+    :class="{ 'mim-wrap': token === 'BUSM' || full, pair: itsGroup, mini }"
   >
     <img :src="bgIcon" alt="" class="bg" />
     <img :src="tokenIcon" alt="" class="token-icon" />
@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      groupTokens: ["ETH-SPELL", "SLP", "MIM-3LP3CRV-f-2"],
+      groupTokens: ["ETH-SPELL", "SLP", "BUSM-3LP3CRV-f-2"],
     };
   },
   computed: {

@@ -660,7 +660,7 @@ export default {
   },
   tokens: [
     {
-      name: "MIM",
+      name: "BUSM",
       tokenIdx: 0,
       decimals: 18,
       address: "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",

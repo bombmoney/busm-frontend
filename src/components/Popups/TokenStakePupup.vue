@@ -16,7 +16,7 @@
     </p>
 
     <p class="subtiitle">
-      sSPELL automatically earns fees from MIM repayments from all wizards
+      sSPELL automatically earns fees from BUSM repayments from all wizards
       proportional to your share of the stake pool.
     </p>
 

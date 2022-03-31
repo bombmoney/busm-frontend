@@ -23,7 +23,7 @@
         >
 
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
-          >MIM3POOL</router-link
+          >BUSM3POOL</router-link
         > -->
         <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
           >Get xBOMB</a
@@ -51,7 +51,7 @@
 
         <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />
         <TokenButton :tokenName="'sSpell'" v-if="itsDashboard" /> -->
-        <TokenButton :tokenName="'MIM'" />
+        <TokenButton :tokenName="'BUSM'" />
       </nav>
 
       <img

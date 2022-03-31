@@ -1,8 +1,8 @@
 export default [
   {
-    name: "MIM",
-    address: "0xfE19F0B51438fd612f6FD59C1dbB3eA319f433Ba",
-    symbol: "MIM",
+    name: "BUSM",
+    address: "0x6216B17f696B14701E17BCB24Ec14430261Be94A",
+    symbol: "BUSM",
     decimals: 18,
     image:
       "https://fra1.digitaloceanspaces.com/static.popsicle.finance/mimlogopng.png",
