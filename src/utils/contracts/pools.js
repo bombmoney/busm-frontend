@@ -1423,7 +1423,7 @@ export default [
     stabilityFee: 11,
     interest: 3,
     ltv: 75,
-    initialMax: 20,
+    initialMax: 500,
     swapContractInfo: {
       address: "0xF5d8ad871854c0350eD1e4a5961434453930CeA9",
       abi: [
