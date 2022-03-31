@@ -5,14 +5,15 @@ export default [
     symbol: "BUSM",
     decimals: 18,
     image:
-      "https://fra1.digitaloceanspaces.com/static.popsicle.finance/mimlogopng.png",
+      "https://raw.githubusercontent.com/bombmoney/bomb-assets/master/busm-256.png",
   },
   {
-    name: "Spell",
-    address: "0x090185f2135308bad17527004364ebcc2d37e5f6",
-    symbol: "SPELL",
+    name: "xBOMB",
+    address: "0xAf16cB45B8149DA403AF41C63AbFEBFbcd16264b",
+    symbol: "xBOMB",
     decimals: 18,
-    image: "https://abracadabra.money/tokenmagicwandpng",
+    image:
+      "https://raw.githubusercontent.com/bombmoney/bomb-assets/master/xbomb-256.png",
   },
   {
     name: "sSpell",

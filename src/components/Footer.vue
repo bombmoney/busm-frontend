@@ -6,11 +6,14 @@
         <img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-2" />
       </div>
       <nav class="footer-nav">
-        <!-- <router-link :to="{ name: 'Docs' }" class="nav-link">Docs</router-link>
-        <router-link :to="{ name: 'Tech' }" class="nav-link">Tech</router-link> -->
-        <router-link :to="{ name: 'Liquidations' }" class="nav-link"
+        <a target="_blank" href="https://docs.busm.money" class="nav-link">
+          Docs
+        </a>
+        <!-- <router-link :to="{ name: 'Docs' }" class="nav-link">Docs</router-link> -->
+        <!--   <router-link :to="{ name: 'Tech' }" class="nav-link">Tech</router-link> -->
+        <!-- <router-link :to="{ name: 'Liquidations' }" class="nav-link"
           >Liquidations</router-link
-        >
+        > -->
       </nav>
       <div class="links-wrap">
         <a

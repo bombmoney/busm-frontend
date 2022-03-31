@@ -1,7 +1,7 @@
 <template>
   <div
     class="token-icon-wrap"
-    :class="{ 'mim-wrap': token === 'BUSM' || full, pair: itsGroup, mini }"
+    :class="{ 'mim-wrap': token === 'MIM' || full, pair: itsGroup, mini }"
   >
     <img :src="bgIcon" alt="" class="bg" />
     <img :src="tokenIcon" alt="" class="token-icon" />
@@ -42,7 +42,20 @@ export default {
             tokenImage || require("@/assets/images/tokens-icon/Token_ETH.svg")
           );
         }
+        if (this.token === "BUSM") {
+          const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.token}.png`);
 
+          return (
+            tokenImage || require("@/assets/images/tokens-icon/Token_ETH.svg")
+          );
+        }
+        if (this.token === "xBOMB") {
+          const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.token}.png`);
+
+          return (
+            tokenImage || require("@/assets/images/tokens-icon/Token_ETH.svg")
+          );
+        }
         const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.token}.svg`);
 
         return (

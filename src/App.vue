@@ -2,7 +2,7 @@
   <div id="app">
     <template v-if="!checkInProcess">
       <Header></Header>
-      <!-- <Banner v-if="showBanner" /> -->
+      <Banner v-if="showBanner" />
       <transition name="fade" mode="out-in">
         <router-view></router-view>
       </transition>
@@ -23,7 +23,7 @@
 <script>
 const Header = () => import("@/components/Header");
 const Footer = () => import("@/components/Footer");
-// const Banner = () => import("@/components/UiComponents/Banner");
+const Banner = () => import("@/components/UiComponents/Banner");
 const PopupsWrapper = () => import("@/components/Popups/PopupWrapper");
 const NotificationContainer = () =>
   import("@/components/Notifications/NotificationContainer");
@@ -43,9 +43,9 @@ export default {
     };
   },
   computed: {
-    // showBanner() {
-    //   return this.$store.getters.getShowBanner === "show";
-    // },
+    showBanner() {
+      return this.$store.getters.getShowBanner === "show";
+    },
     showPopup() {
       return this.$store.getters.getPopupState;
     },
@@ -55,7 +55,7 @@ export default {
       console.log("CHECK COMPLETE");
       await this.createPools();
       // await this.createFarmPools();
-      //.... await this.initSwap();
+      // await this.initSwap();
       this.checkInProcess = false;
       clearInterval(this.farmPoolsTimer);
 
@@ -78,7 +78,7 @@ export default {
   components: {
     Header,
     Footer,
-    // Banner,
+    Banner,
     PopupsWrapper,
     MetamaskChecker,
     NotificationContainer,

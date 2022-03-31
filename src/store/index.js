@@ -13,17 +13,17 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    // showBanner: localStorage.getItem("showBanner") || "show",
+    showBanner: localStorage.getItem("showBanner") || "show",
   },
   mutations: {
-    // closeBanner(state) {
-    //   localStorage.setItem("showBanner", "hide");
-    //   state.showBanner = "hide";
-    // },
+    closeBanner(state) {
+      localStorage.setItem("showBanner", "hide");
+      state.showBanner = "hide";
+    },
   },
   actions: {},
   getters: {
-    // getShowBanner: (state) => state.showBanner,
+    getShowBanner: (state) => state.showBanner,
   },
   modules: {
     popups,

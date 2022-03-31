@@ -1,6 +1,6 @@
 export default {
   name: "Swap 1",
-  contractChain: "0x1",
+  contractChain: "0x38",
   id: 1,
   contract: {
     name: "Vyper_contract",
@@ -663,7 +663,7 @@ export default {
       name: "BUSM",
       tokenIdx: 0,
       decimals: 18,
-      address: "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
+      address: "0x6216B17f696B14701E17BCB24Ec14430261Be94A",
       abi: [
         {
           anonymous: false,

@@ -25,8 +25,8 @@
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
           >BUSM3POOL</router-link
         > -->
-        <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
-          >Get xBOMB</a
+        <!-- <a href="https://docs.busm.money/" target="_blank" class="nav-link"
+          >Docs</a
         > -->
 
         <a
@@ -49,9 +49,10 @@
           </div>
         </div>
 
-        <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />
-        <TokenButton :tokenName="'sSpell'" v-if="itsDashboard" /> -->
+        <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />-->
+
         <TokenButton :tokenName="'BUSM'" />
+        <TokenButton :tokenName="'xBOMB'" />
       </nav>
 
       <img

@@ -16,7 +16,7 @@ export default {
     async initSwap() {
       console.log("SWAP");
       if (!swapInfo) return false;
-      if (swapInfo.contractChain !== "0x1") return false;
+      if (swapInfo.contractChain !== "0x38") return false;
 
       const contractInstance = new this.$ethers.Contract(
         swapInfo.contract.address,

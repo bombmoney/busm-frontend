@@ -19,7 +19,7 @@ export default {
       return this.$store.getters.getAccount;
     },
     tokenIcon() {
-      const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.tokenName}.svg`);
+      const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.tokenName}.png`);
 
       return tokenImage || require("@/assets/images/tokens-icon/Token_ETH.svg");
     },

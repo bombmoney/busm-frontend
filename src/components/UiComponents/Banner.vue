@@ -32,15 +32,24 @@
         @click="closeBanner"
       />
       <div class="text-wrap">
-        <h3>
-          Metamask currently does not support signatures using Ledger/Trezor
-          devices
-        </h3>
+        <h3>We have recently launched BUSM and need help adding liquidity!</h3>
         <div class="sub-wrap">
-          <img src="@/assets/images/Pixel_time.svg" alt="" class="clock-img" />
           <p>
-            We are monitoring the situation and will implement a fix as soon as
-            its available
+            You can add
+            <a
+              href="https://pancakeswap.finance/add/0x6216B17f696B14701E17BCB24Ec14430261Be94A/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+              target="_blank"
+              title="Add liquidity on PancakeSwap"
+              >BUSM-BUSD liquidity</a
+            >
+            &nbsp;at PancakeSwap or&nbsp;
+            <a
+              href="https://app.acsi.finance/#/pool/0x9593cd5c6ea85291ac5b61b325208ab4d057dbf5000100000000000000000024"
+              target="_blank"
+              title="Add liquidity on ACSI"
+              >BUSM-BUSD-USDT liquidity</a
+            >
+            &nbsp;at ACSI finance.
           </p>
         </div>
       </div>
