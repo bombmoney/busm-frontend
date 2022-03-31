@@ -11,7 +11,7 @@
       </transition>
 
       <router-link :to="{ name: 'Home' }" class="logo-wrap"
-        ><img src="@/assets/images/text-logo.svg" alt="" class="logo"
+        ><img src="@/assets/images/bomb-logo.png" alt="" class="logo"
       /></router-link>
 
       <nav>
