@@ -4,21 +4,12 @@
       <div class="info-block">
         <img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />
         <div class="text-wrap">
-          <h1>
-            This is a copy of Abracadabra.money website only to demonstrate
-            xBOMB integration.
-          </h1>
+          <h1>BUSM.MONEY IS EXPLOSIVE!</h1>
           <p class="blue-text">
-            Contracts are production ready. Only 700 BUSM was deposited for
-            testing. <br />
-            If no BUSM is available, some will need to be deposited to the
-            master contract clone in order to borrow. <br />
-            <a
-              href="https://bscscan.com/address/0x1f8fd4289423e273bc067af576bda66123de05b8#readContract"
-              title="contract"
-              target="_blank"
-              >0x1f8fd4289423e273bc067af576bda66123de05b8</a
-            >
+            Provide your yield bearing xBomb as collateral. Once completed, you
+            will be able to borrow BOMB US MONEY (BUSM), from here the sky is
+            the limit! Purchase any token you wish, from more BOMB to another
+            stablecoin!
           </p>
         </div>
       </div>
