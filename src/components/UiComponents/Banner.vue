@@ -24,13 +24,13 @@
         src="@/assets/images/banner/pixel-circle.svg"
         alt=""
         class="circle-right"
-      />
+      />-->
       <img
         src="@/assets/images/close-popup.svg"
         alt=""
         class="close-img"
         @click="closeBanner"
-      />-->
+      />
       <div class="text-wrap">
         <h3>We have recently launched BUSM and need help adding liquidity!</h3>
         <div class="sub-wrap">

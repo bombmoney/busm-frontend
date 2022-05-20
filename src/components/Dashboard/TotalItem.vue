@@ -43,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 .total-item {
-  background: #000000;
+  background: #222;
   border-radius: 20px;
   padding: 20px;
   min-height: 300px;

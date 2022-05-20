@@ -3,7 +3,7 @@
     <div class="container mini">
       <BackButton :text="'Stand'" @click="toStand" />
 
-      <h1>Magic happens here</h1>
+      <h1>Boom, magic.</h1>
 
       <div class="pool-head-bar">
         <div class="btns-group">
