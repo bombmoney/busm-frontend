@@ -163,7 +163,7 @@ export default {
   }
 
   .logo {
-    width: 220px;
+    width: 120px;
     height: auto;
     object-fit: contain;
     position: relative;
