@@ -6,7 +6,7 @@
       displayed here
     </p>
 
-    <img class="main-img" src="@/assets/images/open-chest.svg" alt="" />
+    <!--<img class="main-img" src="@/assets/images/open-chest.svg" alt="" />-->
   </div>
 </template>
 

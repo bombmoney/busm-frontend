@@ -101,7 +101,7 @@ export default {
   display: flex;
   justify-content: space-between;
   padding: 25px;
-  background-color: rgba(24, 18, 53, 0.5);
+  background-color: $clrBlue;
   border-radius: 20px;
   margin-bottom: 80px;
 

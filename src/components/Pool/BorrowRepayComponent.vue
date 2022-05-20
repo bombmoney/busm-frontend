@@ -751,6 +751,7 @@ export default {
     margin-bottom: 15px;
     text-align: left;
     text-transform: uppercase;
+    color: #fdd603;
   }
 
   .input-wrap {

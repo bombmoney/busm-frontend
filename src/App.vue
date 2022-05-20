@@ -141,9 +141,8 @@ h3 {
 .btn {
   width: 176px;
   height: 60px;
-  background: #7b79f7;
   border-radius: 8px;
-  background-color: $clrBlue;
+  background: rgba(255, 255, 255, 0.1);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -153,7 +152,7 @@ h3 {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
   cursor: pointer;
   outline: none;
   border: none;

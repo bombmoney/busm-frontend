@@ -179,7 +179,7 @@ export default {
 
     &.active,
     &:hover {
-      border: 1px solid #7b79f7;
+      border: 1px solid #fdd603;
     }
 
     &.error {
@@ -192,10 +192,10 @@ export default {
     height: 24px;
     outline: none;
     border: none;
-    background: $clrBlue4;
+    background: #fdd603;
     border-radius: 23px;
     font-size: 12px;
-    color: $clrText;
+    color: #000;
     padding: 0 5px;
     transition: all 0.3s ease;
 
