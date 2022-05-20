@@ -123,12 +123,6 @@ export default {
   }
 }
 
-@media screen and(max-width: 980px) {
-  .app-footer .container .footer-nav {
-    display: none;
-  }
-}
-
 @media screen and(max-width: 780px) {
   .app-footer .container .links-wrap .link-item.ml {
     margin-left: 30px;
