@@ -153,7 +153,7 @@ h3 {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000;
   cursor: pointer;
   outline: none;
   border: none;

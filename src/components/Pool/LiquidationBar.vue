@@ -1,7 +1,7 @@
 <template>
   <div class="liquidation-bar">
     <div class="image-wrap">
-      <img src="@/assets/images/wizard.png" alt="" class="wizard-img" />
+      <img src="@/assets/images/BombLiqIcon.png" alt="" class="wizard-img" />
 
       <img
         src="@/assets/images/i-icon.svg"
@@ -131,8 +131,8 @@ export default {
   }
 
   .range {
-    background: #403b83;
-    border: 1px solid #403b83;
+    background: #fdd603;
+    border: 1px solid #fdd603;
     border-radius: 39px;
     display: flex;
     height: 9px;

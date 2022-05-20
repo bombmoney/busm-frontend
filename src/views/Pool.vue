@@ -2609,7 +2609,7 @@ export default {
       width: 127px;
       font-size: 16px;
       line-height: 1;
-      background: rgba(123, 121, 247, 0.3);
+      background: #ffe576;
 
       &:hover {
         background-color: $clrBlue5;

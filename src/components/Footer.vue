@@ -2,8 +2,8 @@
   <footer class="app-footer" :class="{ transparent: itsTransparent }">
     <div class="container">
       <div class="skulls-wrap">
-        <img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-1" />
-        <img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-2" />
+        <!--<img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-1" />
+        <img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-2" />-->
       </div>
       <nav class="footer-nav">
         <a target="_blank" href="https://docs.busm.money" class="nav-link">

@@ -2,7 +2,8 @@
   <div class="home-view" :style="{ backgroundImage: `url(${mainBgGrid})` }">
     <section class="section-1">
       <div class="info-block">
-        <img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />
+        <!--<img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />-->
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
         <div class="text-wrap">
           <h1>BUSM.MONEY IS EXPLOSIVE!</h1>
           <p class="blue-text">
@@ -13,12 +14,13 @@
           </p>
         </div>
       </div>
-      <img class="sect-image" src="@/assets/images/home-get-coins.svg" alt="" />
+      <!--<img class="sect-image" src="@/assets/images/home-get-coins.svg" alt="" />-->
     </section>
 
     <section class="section-2">
       <div class="info-block">
-        <img class="bg-cloud" src="@/assets/images/cloud-2.svg" alt="" />
+        <!--<img class="bg-cloud" src="@/assets/images/cloud-2.svg" alt="" />-->
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
         <div class="text-wrap">
           <!-- <p class="regular-text">
             These components are used to magically conjure stable coins pegged
@@ -30,16 +32,17 @@
           </p>
         </div>
       </div>
-      <img
+      <!--<img
         class="sect-image"
         src="@/assets/images/home-defeat-the-dragon.svg"
         alt=""
-      />
+      />-->
     </section>
 
     <section class="section-3">
       <div class="info-block">
-        <img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />
+        <!--<img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />-->
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
         <div class="text-wrap">
           <h1>
             TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED BUSMS
@@ -48,7 +51,7 @@
           </h1>
         </div>
       </div>
-      <img class="sect-image" src="@/assets/images/home-win.svg" alt="" />
+      <!--<img class="sect-image" src="@/assets/images/home-win.svg" alt="" />-->
     </section>
   </div>
 </template>

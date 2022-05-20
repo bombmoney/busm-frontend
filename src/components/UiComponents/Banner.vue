@@ -1,10 +1,10 @@
 <template>
   <div class="main-banner" :class="{ 'mt-header': isHeaderAbsolute }">
-    <img src="@/assets/images/banner/left-img.svg" alt="" class="left-img" />
-    <img src="@/assets/images/banner/right-img.svg" alt="" class="right-img" />
+    <!--<img src="@/assets/images/banner/left-img.svg" alt="" class="left-img" />
+    <img src="@/assets/images/banner/right-img.svg" alt="" class="right-img" />-->
 
     <div class="container">
-      <img
+      <!--<img
         src="@/assets/images/banner/pixel-star.svg"
         alt=""
         class="star-left"
@@ -30,7 +30,7 @@
         alt=""
         class="close-img"
         @click="closeBanner"
-      />
+      />-->
       <div class="text-wrap">
         <h3>We have recently launched BUSM and need help adding liquidity!</h3>
         <div class="sub-wrap">
@@ -77,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 .main-banner {
   width: 100%;
-  background-color: $clrBlue;
+  background-color: $clrBg2;
   z-index: 200;
   position: relative;
 

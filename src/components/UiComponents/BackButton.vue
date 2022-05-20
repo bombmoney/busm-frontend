@@ -1,6 +1,6 @@
 <template>
   <div class="back-btn" @click="clickHandler">
-    <img src="@/assets/images/back-arrow.svg" alt="" class="arrow-icon" />
+    <img src="@/assets/images/back-arrow-bomb.svg" alt="" class="arrow-icon" />
     <p>{{ text }}</p>
   </div>
 </template>
@@ -29,8 +29,8 @@ export default {
   width: max-content;
 
   .arrow-icon {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
     margin-right: 10px;
   }
