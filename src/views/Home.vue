@@ -3,7 +3,7 @@
     <section class="section-1">
       <div class="info-block">
         <!--<img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />-->
-        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb2.svg" alt="" />
         <div class="text-wrap">
           <h1>BUSM.MONEY IS EXPLOSIVE!</h1>
           <p class="blue-text">
@@ -17,32 +17,32 @@
       <!--<img class="sect-image" src="@/assets/images/home-get-coins.svg" alt="" />-->
     </section>
 
-    <section class="section-2">
+    <!--<section class="section-2">
       <div class="info-block">
-        <!--<img class="bg-cloud" src="@/assets/images/cloud-2.svg" alt="" />-->
-        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
+        <img class="bg-cloud" src="@/assets/images/cloud-2.svg" alt="" />
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb2.svg" alt="" />
         <div class="text-wrap">
-          <!-- <p class="regular-text">
+           <p class="regular-text">
             These components are used to magically conjure stable coins pegged
             to fiat currencies, such as USD
-          </p> -->
+          </p>
           <p class="blue-text">
             THE FORMULA IS STRAIGHT FORWARD. COLLATERAL IN - POOF - STABLE COIN
             OUT.
           </p>
         </div>
       </div>
-      <!--<img
+      <img
         class="sect-image"
         src="@/assets/images/home-defeat-the-dragon.svg"
         alt=""
-      />-->
+      />
     </section>
 
     <section class="section-3">
       <div class="info-block">
-        <!--<img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />-->
-        <img class="bg-cloud" src="@/assets/images/cloud-bomb.svg" alt="" />
+        <img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />
+        <img class="bg-cloud" src="@/assets/images/cloud-bomb2.svg" alt="" />
         <div class="text-wrap">
           <h1>
             TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED BUSMS
@@ -51,8 +51,8 @@
           </h1>
         </div>
       </div>
-      <!--<img class="sect-image" src="@/assets/images/home-win.svg" alt="" />-->
-    </section>
+      <img class="sect-image" src="@/assets/images/home-win.svg" alt="" />
+    </section>-->
   </div>
 </template>
 
@@ -83,13 +83,17 @@ export default {
     margin-right: auto;
   }
 
+  h1, h2, h3 {
+    color: #fdd603;
+  }
+
   .blue-text {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 1.2;
     text-transform: uppercase;
-    color: $clrBlue;
+    color: #fff;
   }
 
   .regular-text {

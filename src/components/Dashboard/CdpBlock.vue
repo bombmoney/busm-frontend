@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .cdp-block {
-  background: #221b47;
+  background: #222;
   border-radius: 20px;
   padding: 20px 10px 15px;
   min-height: 300px;

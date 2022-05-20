@@ -71,7 +71,7 @@ export default {
       width: calc(50% - 10px);
       font-size: 16px;
       line-height: 1;
-      background: rgba(123, 121, 247, 0.3);
+      background: rgba(255, 255, 255, 0.1);
 
       &:hover {
         background-color: $clrBlue5;

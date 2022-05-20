@@ -291,7 +291,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
   }
 }

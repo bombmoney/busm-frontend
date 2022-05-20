@@ -3,7 +3,7 @@
     <div class="container mini">
       <BackButton :text="'Stand'" @click="toStand" />
 
-      <h1>Magic happens here</h1>
+      <h1>Boom, magic.</h1>
 
       <div class="pool-head-bar">
         <div class="btns-group">
@@ -2609,7 +2609,7 @@ export default {
       width: 127px;
       font-size: 16px;
       line-height: 1;
-      background: #ffe576;
+      background: rgba(255, 255, 255, 0.1);
 
       &:hover {
         background-color: $clrBlue5;

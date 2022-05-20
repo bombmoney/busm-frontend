@@ -8,7 +8,7 @@
     <p class="count-text">{{ amount }}</p>
     <p class="info-text" v-if="count">{{ type }}ed from {{ count }} pools</p>
 
-    <img
+    <!--<img
       class="left-bg"
       src="@/assets/images/dashboard/total-left-bg.svg"
       alt=""
@@ -17,7 +17,7 @@
       src="@/assets/images/dashboard/total-right-bg.svg"
       alt=""
       class="right-bg"
-    />
+    />-->
   </div>
 </template>
 
@@ -43,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 .total-item {
-  background: #221b47;
+  background: #222;
   border-radius: 20px;
   padding: 20px;
   min-height: 300px;

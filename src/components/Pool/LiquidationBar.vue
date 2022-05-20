@@ -8,7 +8,7 @@
         alt=""
         class="info-icon"
         v-tooltip="
-          'This mana bar displays how healthy your position is. If it is empty, you will be flagged for liquidation. Stable xBOMBs Mana bar is enlarged by 10x to allow better visual representation.'
+          'This health bar displays how healthy your position is. If it is empty, you will be flagged for liquidation. Stable xBOMBs Health bar is enlarged by 10x to allow better visual representation.'
         "
       />
     </div>
@@ -131,8 +131,8 @@ export default {
   }
 
   .range {
-    background: #fdd603;
-    border: 1px solid #fdd603;
+    background: #222;
+    border: 1px solid #222;
     border-radius: 39px;
     display: flex;
     height: 9px;
@@ -144,11 +144,11 @@ export default {
       transition: all 0.3s ease;
 
       &.safe {
-        background: #75c9ee;
+        background: #fff;
       }
 
       &.medium {
-        background: #f2994a;
+        background: #fff;
       }
 
       &.hight {

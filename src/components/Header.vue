@@ -1,14 +1,14 @@
 <template>
   <header class="app-header" :class="{ transparent: itsTransparent }">
     <div class="container">
-      <transition name="fade">
+      <!--<transition name="fade">
         <img
           v-if="showLogoBg"
-          src="@/assets/images/logo-bg.svg"
+          src="@/assets/images/logo-bg-bomb.svg"
           alt=""
           class="logo-bg"
         />
-      </transition>
+      </transition>-->
 
       <router-link :to="{ name: 'Home' }" class="logo-wrap"
         ><img src="@/assets/images/bomb-logo.png" alt="" class="logo"
@@ -165,6 +165,7 @@ export default {
   .logo {
     width: 120px;
     height: auto;
+    padding-bottom: 10px;
     object-fit: contain;
     position: relative;
     z-index: 2;

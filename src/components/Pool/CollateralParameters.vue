@@ -57,6 +57,7 @@ export default {
 
   h2 {
     margin-bottom: 30px;
+    color: #fdd603;
   }
 
   .items-wrap {
