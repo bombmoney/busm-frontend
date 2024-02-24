@@ -32,7 +32,7 @@ export default {
     return {
       poolTop: [
         {
-          name: "curve BUSM-3 pool",
+          name: "curve BIM-3 pool",
         },
         {
           name: "ETH-SPELL",

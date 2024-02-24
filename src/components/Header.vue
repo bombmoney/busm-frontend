@@ -19,21 +19,21 @@
           >farm</router-link
         > -->
         <router-link :to="{ name: 'Stand' }" class="nav-link"
-          >Get BUSM</router-link
+          >Get BIM</router-link
         >
 
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
-          >BUSM3POOL</router-link
+          >BIM3POOL</router-link
         > -->
         <!-- <a href="https://docs.busm.money/" target="_blank" class="nav-link"
           >Docs</a
         > -->
 
         <a
-          href="https://app.1inch.io/#/56/swap/0x6216B17f696B14701E17BCB24Ec14430261Be94A/BOMB"
+          href="https://pancakeswap.finance/swap?outputCurrency=0xA677a11A6d3abb32F1E195db5650b147577194c6"
           target="_blank"
           class="nav-link"
-          >swap BUSM</a
+          >swap BIM</a
         >
 
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
@@ -51,7 +51,7 @@
 
         <!-- <TokenButton :tokenName="'Spell'" v-if="!itsDashboard" />-->
 
-        <TokenButton :tokenName="'BUSM'" />
+        <TokenButton :tokenName="'BIM'" />
         <TokenButton :tokenName="'xBOMB'" />
       </nav>
 

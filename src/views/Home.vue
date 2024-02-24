@@ -4,11 +4,11 @@
       <div class="info-block">
         <img class="bg-cloud" src="@/assets/images/cloud-1.svg" alt="" />
         <div class="text-wrap">
-          <h1>BUSM.MONEY IS EXPLOSIVE!</h1>
+          <h1>BIM.MONEY IS EXPLOSIVE!</h1>
           <p class="blue-text">
             Provide your yield bearing xBomb as collateral. Once completed, you
-            will be able to borrow BOMB US MONEY (BUSM), from here the sky is
-            the limit! Purchase any token you wish, from more BOMB to another
+            will be able to borrow BOMB US MONEY (BIM), from here the sky is the
+            limit! Purchase any token you wish, from more BOMB to another
             stablecoin!
           </p>
         </div>
@@ -42,8 +42,8 @@
         <img class="bg-cloud" src="@/assets/images/cloud-3.svg" alt="" />
         <div class="text-wrap">
           <h1>
-            TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED BUSMS
-            TO THE SPELL BOOK. THEN THE MAGICALLY LOCKED INTEREST BEARING TOKENS
+            TO REVERSE THE SPELL, THE CASTER SIMPLY RETURNS THE CONJURED BIMS TO
+            THE SPELL BOOK. THEN THE MAGICALLY LOCKED INTEREST BEARING TOKENS
             ARE RELEASED.
           </h1>
         </div>

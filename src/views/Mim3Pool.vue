@@ -1,7 +1,7 @@
 <template>
   <div class="mim-pool-view">
     <div class="container mini">
-      <h1>BUSM3POOL</h1>
+      <h1>BIM3POOL</h1>
 
       <div class="btns-group">
         <button

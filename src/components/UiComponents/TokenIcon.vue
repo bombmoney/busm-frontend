@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      groupTokens: ["ETH-SPELL", "SLP", "BUSM-3LP3CRV-f-2"],
+      groupTokens: ["ETH-SPELL", "SLP", "BIM-3LP3CRV-f-2"],
     };
   },
   computed: {
@@ -42,7 +42,7 @@ export default {
             tokenImage || require("@/assets/images/tokens-icon/Token_ETH.svg")
           );
         }
-        if (this.token === "BUSM") {
+        if (this.token === "BIM") {
           const tokenImage = require(`@/assets/images/tokens-icon/Token_${this.token}.png`);
 
           return (

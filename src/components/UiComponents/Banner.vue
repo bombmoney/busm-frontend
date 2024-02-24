@@ -32,24 +32,24 @@
         @click="closeBanner"
       />
       <div class="text-wrap">
-        <h3>We have recently launched BUSM and need help adding liquidity!</h3>
+        <h3>We have recently launched BIM and need help adding liquidity!</h3>
         <div class="sub-wrap">
           <p>
             You can add
             <a
-              href="https://pancakeswap.finance/add/0x6216B17f696B14701E17BCB24Ec14430261Be94A/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+              href="https://pancakeswap.finance/v2/add/0xA677a11A6d3abb32F1E195db5650b147577194c6/0x55d398326f99059fF775485246999027B3197955"
               target="_blank"
               title="Add liquidity on PancakeSwap"
-              >BUSM-BUSD liquidity</a
-            >
-            &nbsp;at PancakeSwap or&nbsp;
+              >BIM-USDT liquidity</a
+            >&nbsp;at PancakeSwap
+            <!-- &nbsp;at PancakeSwap or&nbsp;
             <a
               href="https://app.acsi.finance/#/pool/0x9593cd5c6ea85291ac5b61b325208ab4d057dbf5000100000000000000000024"
               target="_blank"
               title="Add liquidity on ACSI"
-              >BUSM-BUSD-USDT liquidity</a
+              >BIM-BUSD-USDT liquidity</a
             >
-            &nbsp;at ACSI finance.
+            &nbsp;at ACSI finance. -->
           </p>
         </div>
       </div>

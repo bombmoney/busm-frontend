@@ -98,8 +98,8 @@
 <script>
 const ValueInput = () => import("@/components/UiComponents/ValueInput");
 const LiquidationRules = () => import("@/components/Pool/LiquidatonRules");
-//const LeverageBar = () => import("@/components/Pool/LeverageBar");
-//const SlipageBlock = () => import("@/components/Pool/SlipageBlock");
+// const LeverageBar = () => import("@/components/Pool/LeverageBar");
+// const SlipageBlock = () => import("@/components/Pool/SlipageBlock");
 
 export default {
   props: {
@@ -671,8 +671,8 @@ export default {
   components: {
     ValueInput,
     LiquidationRules,
-    //  LeverageBar,
-    //  SlipageBlock,
+    // LeverageBar,
+    // SlipageBlock,
   },
 };
 </script>

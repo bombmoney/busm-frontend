@@ -10,7 +10,7 @@
           <h3 class="title">What is Abracadabra?</h3>
           <p>
             Abracadabra is a decentralized protocol that allows wizards to mint
-            the stablecoin $BUSM using a variety of interest bearing tokens
+            the stablecoin $BIM using a variety of interest bearing tokens
             (xBOMBS) as collateral.
           </p>
 
@@ -35,7 +35,7 @@
       <h3 class="title">Tokenomics</h3>
 
       <p>
-        Abracadabra runs on the following tokens; Magic Internet Money (BUSM),
+        Abracadabra runs on the following tokens; Magic Internet Money (BIM),
         SPELL (which can be staked for sSPELL), and a variety of other
         protocol’s xBOMBs.
       </p>
@@ -49,9 +49,9 @@
         <div class="text-wrap">
           <h3 class="title">Magic Internet Money</h3>
           <p>
-            BUSM is the stable coin borrowed against xBOMBs. It has a max supply
+            BIM is the stable coin borrowed against xBOMBs. It has a max supply
             of infinity. Meaning there is no max supply. It’s magic internet
-            money after all. The token is pegged to the USD and every time 1 BUSM
+            money after all. The token is pegged to the USD and every time 1 BIM
             is borrowed its value is pegged to USD. It is also always redeemed
             at a value of 1USD.
           </p>
@@ -93,7 +93,7 @@
           <h3 class="title">Token Contracts</h3>
 
           <div class="token-item">
-            <p>BUSM Token Address:</p>
+            <p>BIM Token Address:</p>
             <p>0x000000000000000000000000000000000</p>
           </div>
 
@@ -116,7 +116,7 @@
       <h3 class="title">How to USE Abracadabra Money</h3>
       <p>
         Wizards that wish to use Abracadabra Money should first consider whether
-        they have ibTokens that they can use to borrow BUSM. TThereafter, they
+        they have ibTokens that they can use to borrow BIM. TThereafter, they
         can visit the site and find across the top we can find the following
         buttons.
       </p>
@@ -129,13 +129,13 @@
         <div class="info-item">
           <p>
             The BORROW button is used to enter the page where wizards can open
-            CDPs to mint BUSM. There will also be the farming opportunities for
+            CDPs to mint BIM. There will also be the farming opportunities for
             SPELL tokens while these last here.
           </p>
         </div>
         <div class="info-item">
           <p>
-            The SWAP button is used to enter a page where wizards can swap BUSM
+            The SWAP button is used to enter a page where wizards can swap BIM
             tokens for other USD pegged stable coins such as USDT or DAI.
           </p>
         </div>
@@ -168,14 +168,14 @@
 
       <h3 class="title">The BORROW Button</h3>
       <p>
-        In this page wizards will be able to open CDPs and Borrow BUSM tokens.
+        In this page wizards will be able to open CDPs and Borrow BIM tokens.
       </p>
 
       <img src="@/assets/images/docs/borrow-img.png" alt="" class="full-img" />
 
       <p>
         Here you will see a list of xBOMBs that are used as collateral for
-        minting BUSM. From left to right we see:
+        minting BIM. From left to right we see:
       </p>
 
       <div class="info-items-wrap">
@@ -184,9 +184,9 @@
         </div>
         <div class="info-item">
           <p>
-            Available to Borrow - Here we see the number of BUSM tokens that can
+            Available to Borrow - Here we see the number of BIM tokens that can
             still be minted from this collateral type. To reduce risk, and to
-            ensure that BUSM tokens are backed by a variety of xBOMBs, each
+            ensure that BIM tokens are backed by a variety of xBOMBs, each
             collateral has its own individual maximum allowance. These
             allowances can be increased via governance.
           </p>
@@ -194,16 +194,16 @@
         <div class="info-item">
           <p>
             Loan to Value ratio (LTV) - This shows the maximum amount of value
-            that this collateral can grant to the minting of BUSM. For example,
+            that this collateral can grant to the minting of BIM. For example,
             an xBOMB when a TVL of 75% can only mint at most, 75% of its value
-            in BUSM before being flagged for liquidation. (more liquidations
+            in BIM before being flagged for liquidation. (more liquidations
             below)
           </p>
         </div>
         <div class="info-item">
           <p>
             Interest - This number shows the interest that is incurred on the
-            minted BUSM. These are the fees that sSPELL token holders have a
+            minted BIM. These are the fees that sSPELL token holders have a
             claim to and are paid when debts are paid off or when liquidations
             happen.
           </p>
@@ -268,7 +268,7 @@
         />
       </div>
 
-      <h3 class="title">Summoning some BUSMs</h3>
+      <h3 class="title">Summoning some BIMs</h3>
 
       <p>
         When you are ready to cast your first summoning spell, click anywhere on
@@ -280,18 +280,18 @@
       <img src="@/assets/images/docs/pool-inside.png" alt="" class="full-img" />
 
       <p class="small-text">
-        The borrow and repay buttons allow you to toggle through borrowing BUSM
-        and repaying BUSM.
+        The borrow and repay buttons allow you to toggle through borrowing BIM
+        and repaying BIM.
       </p>
       <p class="small-text">
-        The DEPOSIT COLLATERAL & BORROW BUSM section displays the asset you have
+        The DEPOSIT COLLATERAL & BORROW BIM section displays the asset you have
         chosen as collateral and allows you to input how many of the ibTOKEN in
         your wallet that you want to deposit as collateral.
       </p>
       <p class="small-text">
-        Below that, we see the Borrowing BUSM section with several buttons. The
+        Below that, we see the Borrowing BIM section with several buttons. The
         25%, 50%, 70%, 90%, and custom, buttons all allow you to adjust how much
-        of the collateral value you wish to use for borrowing BUSM.
+        of the collateral value you wish to use for borrowing BIM.
       </p>
 
       <p class="small-text">
@@ -319,21 +319,21 @@
 
       <p class="small-text">
         Finally, we see the BORROW button, which will deposit of your xBOMBs
-        into Abracadabra and Transfer BUSM to your wallet, and open your CDP.
+        into Abracadabra and Transfer BIM to your wallet, and open your CDP.
       </p>
 
-      <h3 class="title">Repaying your BUSM</h3>
+      <h3 class="title">Repaying your BIM</h3>
 
       <p>
         Above, we showed that there was a REPAY button. WHen you click this, you
-        are lead to the page that will allow you to repay your BUSM debt, and
+        are lead to the page that will allow you to repay your BIM debt, and
         interest incurred, and close down your CDPs. Clicking that will lead you
         to the following page.
       </p>
 
       <img src="@/assets/images/docs/repay-img.png" alt="" class="full-img" />
 
-      <h3 class="title">SWAPing BUSM and Stablecoins</h3>
+      <h3 class="title">SWAPing BIM and Stablecoins</h3>
 
       <p>
         On the main page there is the SWAP button at the top. Clicking this
@@ -343,7 +343,7 @@
       <img src="@/assets/images/docs/swap-img.png" alt="" class="full-img" />
 
       <p class="small-text">
-        Here wizards are able to swap BUSM for other USD stable coins such as
+        Here wizards are able to swap BIM for other USD stable coins such as
         USDC, USDT and DAI. This wizard interface (UI) actually interacts with
         the Uniswap V3 protocol and thus using it will subject wizards to the
         fees and regulations of Uniswap. Alternatively, wizards can go directly
@@ -375,11 +375,11 @@
       </p>
 
       <p class="small-text">
-        The TOTAL BORROWED displays the total amount of BUSM debt and from how
+        The TOTAL BORROWED displays the total amount of BIM debt and from how
         many different CDPs.
       </p>
       <p class="small-text">
-        The TOTAL REPAYED displays the total amount of BUSM the user repaid
+        The TOTAL REPAYED displays the total amount of BIM the user repaid
         acroos all CDPs.
       </p>
       <p class="small-text">
@@ -392,8 +392,8 @@
       </p>
       <p class="small-text">
         The bottom section will display a number of small windows equal to an
-        individual's currently opened CDPs. Here wizards can borrow more BUSM
-        versus their xBOMBs or repay some of their owed BUSM.
+        individual's currently opened CDPs. Here wizards can borrow more BIM
+        versus their xBOMBs or repay some of their owed BIM.
       </p>
     </div>
   </div>

@@ -19,7 +19,7 @@
         <!-- <NetworkButton @click="networkClickHandler" /> -->
         <TokenButton :tokenName="'xBOMB'" />
 
-        <TokenButton :tokenName="'BUSM'" />
+        <TokenButton :tokenName="'BIM'" />
       </div>
     </div>
 
@@ -33,7 +33,7 @@
         >Docs</a
       > -->
       <a
-        href="https://app.1inch.io/#/56/swap/0x6216B17f696B14701E17BCB24Ec14430261Be94A/BOMB"
+        href="https://app.1inch.io/#/56/swap/0xA677a11A6d3abb32F1E195db5650b147577194c6/BOMB"
         target="_blank"
         class="nav-link"
         >Swap</a
@@ -44,7 +44,7 @@
       <!-- <router-link :to="{ name: 'Liquidations' }" class="nav-link"
         >Liquidations</router-link
       > -->
-      <!-- <a href="#" class="nav-link" @click.prevent="showSwapPopup">swap BUSM</a>  -->
+      <!-- <a href="#" class="nav-link" @click.prevent="showSwapPopup">swap BIM</a>  -->
     </nav>
   </div>
 </template>
