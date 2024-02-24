@@ -25,22 +25,17 @@
         alt=""
         class="circle-right"
       />-->
-      <img
-        src="@/assets/images/close-popup.svg"
-        alt=""
-        class="close-img"
-        @click="closeBanner"
-      />
+      <img src="@/assets/images/close-popup.svg" alt="" class="close-img" @click="closeBanner" />
       <div class="text-wrap">
         <h3>We have recently launched BIM and need help adding liquidity!</h3>
         <div class="sub-wrap">
           <p>
             You can add
             <a
-              href="https://pancakeswap.finance/v2/add/0xA677a11A6d3abb32F1E195db5650b147577194c6/0x55d398326f99059fF775485246999027B3197955"
+              href="https://pancakeswap.finance/add/0xA677a11A6d3abb32F1E195db5650b147577194c6/0x55d398326f99059fF775485246999027B3197955/2500"
               target="_blank"
               title="Add liquidity on PancakeSwap"
-              >BIM-USDT liquidity</a
+              >BIM-USDT V3 liquidity</a
             >&nbsp;at PancakeSwap
             <!-- &nbsp;at PancakeSwap or&nbsp;
             <a
@@ -61,14 +56,14 @@
 export default {
   computed: {
     isHeaderAbsolute() {
-      const pages = ["Home", "Docs", "Tech", "Liquidations"];
+      const pages = ['Home', 'Docs', 'Tech', 'Liquidations'];
 
       return pages.indexOf(this.$route.name) !== -1;
     },
   },
   methods: {
     closeBanner() {
-      this.$store.commit("closeBanner");
+      this.$store.commit('closeBanner');
     },
   },
 };
