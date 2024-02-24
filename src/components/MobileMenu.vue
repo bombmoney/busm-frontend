@@ -5,12 +5,7 @@
         ><img src="@/assets/images/bomb-logo.png" alt="" class="logo"
       /></router-link>
 
-      <img
-        src="@/assets/images/mobile-menu.svg"
-        alt=""
-        class="mobile-btn"
-        @click="hideMenu"
-      />
+      <img src="@/assets/images/mobile-menu.svg" alt="" class="mobile-btn" @click="hideMenu" />
     </div>
     <div class="btns-wrap">
       <ConnectButton />
@@ -29,7 +24,7 @@
       <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
         >Get xBOMB</a
       > -->
-      <!-- <a href="https://docs.busm.money/" target="_blank" class="nav-link"
+      <!-- <a href="https://docs.bim.money/" target="_blank" class="nav-link"
         >Docs</a
       > -->
       <a
@@ -51,8 +46,8 @@
 
 <script>
 //const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
-const ConnectButton = () => import("@/components/UiComponents/ConnectButton");
-const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
+const ConnectButton = () => import('@/components/UiComponents/ConnectButton');
+const TokenButton = () => import('@/components/UiComponents/AddTokenBtn');
 
 export default {
   watch: {
@@ -62,17 +57,17 @@ export default {
   },
   methods: {
     hideMenu() {
-      this.$store.commit("closePopups");
+      this.$store.commit('closePopups');
     },
     networkClickHandler() {
-      this.$store.commit("setPopupState", {
-        type: "network",
+      this.$store.commit('setPopupState', {
+        type: 'network',
         isShow: true,
       });
     },
     showSwapPopup() {
-      this.$store.commit("setPopupState", {
-        type: "swap",
+      this.$store.commit('setPopupState', {
+        type: 'swap',
         isShow: true,
       });
     },

@@ -18,14 +18,12 @@
         <!-- <router-link :to="{ name: 'FarmStand' }" class="nav-link"
           >farm</router-link
         > -->
-        <router-link :to="{ name: 'Stand' }" class="nav-link"
-          >Get BIM</router-link
-        >
+        <router-link :to="{ name: 'Stand' }" class="nav-link">Get BIM</router-link>
 
         <!-- <router-link :to="{ name: 'Mim3Pool' }" class="nav-link"
           >BIM3POOL</router-link
         > -->
-        <!-- <a href="https://docs.busm.money/" target="_blank" class="nav-link"
+        <!-- <a href="https://docs.bim.money/" target="_blank" class="nav-link"
           >Docs</a
         > -->
 
@@ -39,10 +37,7 @@
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
 
         <div class="btns-wrap">
-          <NetworkButton
-            @click="networkClickHandler"
-            :networkType="activeNetwork"
-          />
+          <NetworkButton @click="networkClickHandler" :networkType="activeNetwork" />
 
           <div class="btn-margin">
             <ConnectButton />
@@ -55,20 +50,15 @@
         <TokenButton :tokenName="'xBOMB'" />
       </nav>
 
-      <img
-        src="@/assets/images/mobile-menu.svg"
-        alt=""
-        class="mobile-btn"
-        @click="menuClickHandler"
-      />
+      <img src="@/assets/images/mobile-menu.svg" alt="" class="mobile-btn" @click="menuClickHandler" />
     </div>
   </header>
 </template>
 
 <script>
-const NetworkButton = () => import("@/components/UiComponents/NetworkButton");
-const ConnectButton = () => import("@/components/UiComponents/ConnectButton");
-const TokenButton = () => import("@/components/UiComponents/AddTokenBtn");
+const NetworkButton = () => import('@/components/UiComponents/NetworkButton');
+const ConnectButton = () => import('@/components/UiComponents/ConnectButton');
+const TokenButton = () => import('@/components/UiComponents/AddTokenBtn');
 
 export default {
   computed: {
@@ -76,12 +66,12 @@ export default {
       return !!this.$store.getters.getSwapObject;
     },
     showLogoBg() {
-      const pages = ["Home"];
+      const pages = ['Home'];
 
       return pages.indexOf(this.$route.name) !== -1;
     },
     itsTransparent() {
-      const pages = ["Home", "Docs", "Tech", "Liquidations"];
+      const pages = ['Home', 'Docs', 'Tech', 'Liquidations'];
 
       return pages.indexOf(this.$route.name) !== -1;
     },
@@ -89,19 +79,19 @@ export default {
       return this.$store.getters.getActiveNetwork;
     },
     itsDashboard() {
-      return this.$route.name === "Dashboard";
+      return this.$route.name === 'Dashboard';
     },
   },
   methods: {
     showSwapPopup() {
-      this.$store.commit("setPopupState", {
-        type: "swap",
+      this.$store.commit('setPopupState', {
+        type: 'swap',
         isShow: true,
       });
     },
     networkClickHandler() {
-      this.$store.commit("setPopupState", {
-        type: "network",
+      this.$store.commit('setPopupState', {
+        type: 'network',
         isShow: true,
       });
     },
@@ -109,13 +99,13 @@ export default {
       const isAlreadyOpen = this.$store.getters.getPopupState;
       const openPopupType = this.$store.getters.getPopupType;
 
-      if (isAlreadyOpen && openPopupType === "sidemenu") {
-        this.$store.commit("closePopups");
+      if (isAlreadyOpen && openPopupType === 'sidemenu') {
+        this.$store.commit('closePopups');
         return;
       }
 
-      this.$store.commit("setPopupState", {
-        type: "sidemenu",
+      this.$store.commit('setPopupState', {
+        type: 'sidemenu',
         isShow: true,
       });
     },

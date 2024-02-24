@@ -6,9 +6,7 @@
         <img src="@/assets/images/skulll.svg" alt="" class="skulls-img img-2" />-->
       </div>
       <nav class="footer-nav">
-        <a target="_blank" href="https://docs.busm.money" class="nav-link">
-          Docs
-        </a>
+        <a target="_blank" href="https://docs.bim.money" class="nav-link"> Docs </a>
         <!-- <router-link :to="{ name: 'Docs' }" class="nav-link">Docs</router-link> -->
         <!--   <router-link :to="{ name: 'Tech' }" class="nav-link">Tech</router-link> -->
         <!-- <router-link :to="{ name: 'Liquidations' }" class="nav-link"
@@ -16,18 +14,10 @@
         > -->
       </nav>
       <div class="links-wrap">
-        <a
-          target="_blank"
-          href="https://bombbshare.medium.com/"
-          class="link-item"
-        >
+        <a target="_blank" href="https://bombbshare.medium.com/" class="link-item">
           <img src="@/assets/images/medium-pixel.svg" alt="" />
         </a>
-        <a
-          target="_blank"
-          href="https://twitter.com/BombMoneyBSC"
-          class="link-item ml"
-        >
+        <a target="_blank" href="https://twitter.com/BombMoneyBSC" class="link-item ml">
           <img src="@/assets/images/twitter-pixel.svg" alt="" />
         </a>
       </div>
@@ -39,7 +29,7 @@
 export default {
   computed: {
     itsTransparent() {
-      const pages = ["Home", "Docs", "Tech", "Liquidations"];
+      const pages = ['Home', 'Docs', 'Tech', 'Liquidations'];
 
       return pages.indexOf(this.$route.name) !== -1;
     },
