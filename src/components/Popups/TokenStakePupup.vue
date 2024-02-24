@@ -16,7 +16,7 @@
     </p>
 
     <p class="subtiitle">
-      sSPELL automatically earns fees from BUSM repayments from all wizards
+      sSPELL automatically earns fees from BIM repayments from all wizards
       proportional to your share of the stake pool.
     </p>
 
@@ -190,9 +190,10 @@ export default {
 
         console.log("AMOUNT", amount.toString());
 
-        const estimateGas = await this.sSpellTokenObject.mainToken.contractInstance.estimateGas.mint(
-          amount
-        );
+        const estimateGas =
+          await this.sSpellTokenObject.mainToken.contractInstance.estimateGas.mint(
+            amount
+          );
 
         const gasLimit = 1000 + +estimateGas.toString();
 
@@ -220,10 +221,11 @@ export default {
 
         console.log("AMOUNT", amount.toString());
 
-        const estimateGas = await this.sSpellTokenObject.mainToken.contractInstance.estimateGas.burn(
-          this.account,
-          amount
-        );
+        const estimateGas =
+          await this.sSpellTokenObject.mainToken.contractInstance.estimateGas.burn(
+            this.account,
+            amount
+          );
 
         const gasLimit = 1000 + +estimateGas.toString();
 

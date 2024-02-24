@@ -660,10 +660,10 @@ export default {
   },
   tokens: [
     {
-      name: "BUSM",
+      name: "BIM",
       tokenIdx: 0,
       decimals: 18,
-      address: "0x6216B17f696B14701E17BCB24Ec14430261Be94A",
+      address: "0xA677a11A6d3abb32F1E195db5650b147577194c6",
       abi: [
         {
           anonymous: false,

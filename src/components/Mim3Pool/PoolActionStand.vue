@@ -11,7 +11,7 @@
 
     <div class="calculation-block">
       <div class="calculation-item">
-        <p>You are about to deposit to BUSM3POOL</p>
+        <p>You are about to deposit to BIM3POOL</p>
 
         <div class="amount-wrap">
           <p v-for="(token, idx) in localTokens" :key="idx">

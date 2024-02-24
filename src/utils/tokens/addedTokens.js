@@ -1,8 +1,8 @@
 export default [
   {
-    name: "BUSM",
-    address: "0x6216B17f696B14701E17BCB24Ec14430261Be94A",
-    symbol: "BUSM",
+    name: "BIM",
+    address: "0xA677a11A6d3abb32F1E195db5650b147577194c6",
+    symbol: "BIM",
     decimals: 18,
     image:
       "https://raw.githubusercontent.com/bombmoney/bomb-assets/master/busm-256.png",

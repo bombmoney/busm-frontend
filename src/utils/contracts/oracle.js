@@ -3,7 +3,7 @@ export default [
     name: "BombOracle",
     id: 1,
     contractChain: "0x38",
-    address: "0x3eBa42e813c82857F412c7bCE33BE2FBdC18cDf0",
+    address: "0x1afaffBC1416989d5Db112260068493690e2Af53",
     abi: [
       {
         inputs: [],

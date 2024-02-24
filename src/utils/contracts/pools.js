@@ -5,7 +5,7 @@ export default [
     id: 1,
     contract: {
       name: "BombShelter",
-      address: "0x78B1389B96bF85718C506aAD390eA2bb2aAA08f6",
+      address: "0x545f9541DCACd6d28a1a028794748A6A312E2974",
       abi: [
         {
           inputs: [
@@ -970,9 +970,9 @@ export default [
       ],
     },
     pairToken: {
-      name: "BUSM",
+      name: "BIM",
       decimals: 18,
-      address: "0x6216B17f696B14701E17BCB24Ec14430261Be94A",
+      address: "0xA677a11A6d3abb32F1E195db5650b147577194c6",
       abi: [
         {
           anonymous: false,
