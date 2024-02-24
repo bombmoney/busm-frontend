@@ -19,16 +19,14 @@
     </div>
 
     <nav>
-      <router-link :to="{ name: 'Stand' }" class="nav-link">borrow</router-link>
+      <router-link :to="{ name: 'Stand' }" class="nav-link">Get BIM</router-link>
 
-      <!-- <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link"
-        >Get xBOMB</a
-      > -->
+      <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link">Get xBOMB</a>
       <!-- <a href="https://docs.bim.money/" target="_blank" class="nav-link"
         >Docs</a
       > -->
       <a
-        href="https://app.1inch.io/#/56/swap/0xA677a11A6d3abb32F1E195db5650b147577194c6/BOMB"
+        href="https://pancakeswap.finance/swap?outputCurrency=0xA677a11A6d3abb32F1E195db5650b147577194c6"
         target="_blank"
         class="nav-link"
         >Swap</a
