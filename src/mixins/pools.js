@@ -140,7 +140,8 @@ export default {
       const mainInfo = this.getMainInfo(
         pool.ltv,
         pool.stabilityFee,
-        pool.interest
+        pool.interest,
+        pool.initialMax / 1000
       );
 
       const tokenPairPrice = 1;
@@ -291,7 +292,7 @@ export default {
         console.log("getOracleExchangeRate err:", e);
       }
     },
-    getMainInfo(ltv, stabilityFee, interest) {
+    getMainInfo(ltv, stabilityFee, interest, initialMax) {
       return [
         {
           title: "Maximum collateral ratio",
@@ -306,7 +307,7 @@ export default {
         },
         {
           title: "Borrow fee",
-          value: `0.5%`,
+          value: `${initialMax}%`,
           additional:
             "This fee is added to your debt every time you borrow BIM. As an example, if you borrow 1000 BIM your debt will immediately increase by 0.50BIM and  become 1000.50BIM",
         },
