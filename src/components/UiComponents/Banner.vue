@@ -32,7 +32,7 @@
           <p>
             You can add
             <a
-              href="https://pancakeswap.finance/add/0xA677a11A6d3abb32F1E195db5650b147577194c6/0x55d398326f99059fF775485246999027B3197955/2500"
+              href="https://pancakeswap.finance/add/0xA677a11A6d3abb32F1E195db5650b147577194c6/0x55d398326f99059fF775485246999027B3197955/10000"
               target="_blank"
               title="Add liquidity on PancakeSwap"
               >BIM-USDT V3 liquidity</a
