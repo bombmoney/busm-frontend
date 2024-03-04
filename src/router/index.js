@@ -1,30 +1,38 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 // import isWalletConnect from "./guard/isWalletConnect";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: () => import("../views/Home.vue"),
+    path: '/',
+    name: 'Home',
+    component: () => import('../views/Home.vue'),
   },
   {
-    path: "/stand",
-    name: "Stand",
+    path: '/stand',
+    name: 'Stand',
     meta: {
       needConnection: true,
     },
-    component: () => import("../views/Stand.vue"),
+    component: () => import('../views/Stand.vue'),
   },
+  // {
+  //   path: '/swap',
+  //   name: 'Swap',
+  //   meta: {
+  //     needConnection: true,
+  //   },
+  //   component: () => import('../views/Swap.vue'),
+  // },
   {
-    path: "/farm-stand",
-    name: "FarmStand",
+    path: '/farm-stand',
+    name: 'FarmStand',
     meta: {
       needConnection: true,
     },
-    component: () => import("../views/FarmStand.vue"),
+    component: () => import('../views/FarmStand.vue'),
   },
   // {
   //   path: "/mim-3-pool",
@@ -35,33 +43,33 @@ const routes = [
   //   component: () => import("../views/Mim3Pool.vue"),
   // },
   {
-    path: "/pool/:id",
-    name: "Pool",
+    path: '/pool/:id',
+    name: 'Pool',
     meta: {
       needConnection: true,
     },
-    component: () => import("../views/Pool.vue"),
+    component: () => import('../views/Pool.vue'),
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
+    path: '/dashboard',
+    name: 'Dashboard',
     meta: {
       needConnection: true,
     },
-    component: () => import("../views/Dashboard.vue"),
+    component: () => import('../views/Dashboard.vue'),
   },
   {
-    path: "/transactions",
-    name: "Transactions",
+    path: '/transactions',
+    name: 'Transactions',
     meta: {
       needConnection: true,
     },
-    component: () => import("../views/Transactions.vue"),
+    component: () => import('../views/Transactions.vue'),
   },
   {
-    path: "/docs",
-    name: "Docs",
-    component: () => import("../views/Docs.vue"),
+    path: '/docs',
+    name: 'Docs',
+    component: () => import('../views/Docs.vue'),
   },
   // {
   //   path: "/tech",
@@ -69,14 +77,14 @@ const routes = [
   //   component: () => import("../views/Tech.vue"),
   // },
   {
-    path: "/liquidations",
-    name: "Liquidations",
-    component: () => import("../views/Liquidations.vue"),
+    path: '/liquidations',
+    name: 'Liquidations',
+    component: () => import('../views/Liquidations.vue'),
   },
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: 'history',
   base: process.env.BASE_URL,
   routes,
   scrollBehavior() {

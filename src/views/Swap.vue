@@ -4,7 +4,7 @@
     <img src="@/assets/images/tech/ellipse-2.svg" alt="" class="bg-ellipse-2" />
 
     <div class="container mini">
-      <h1>Technicals</h1>
+      <h1>Swap</h1>
 
       <div class="tech-sect">
         <img src="@/assets/images/tech/coins-1.svg" alt="" class="bg-coins-1" />

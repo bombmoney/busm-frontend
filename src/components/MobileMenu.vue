@@ -25,12 +25,7 @@
       <!-- <a href="https://docs.bim.money/" target="_blank" class="nav-link"
         >Docs</a
       > -->
-      <a
-        href="https://pancakeswap.finance/swap?outputCurrency=0xA677a11A6d3abb32F1E195db5650b147577194c6"
-        target="_blank"
-        class="nav-link"
-        >Swap</a
-      >
+      <a href="https://swap.bim.money" target="_blank" class="nav-link">Swap</a>
 
       <!-- <router-link :to="{ name: 'Docs' }" class="nav-link">Docs</router-link>
       <router-link :to="{ name: 'Tech' }" class="nav-link">Tech</router-link> -->

@@ -1,148 +1,99 @@
 <template>
-  <div
-    class="liquidations-view"
-    :style="{ backgroundImage: `url(${mainBgGrid})` }"
-  >
-    <img
-      src="@/assets/images/liquidations/ellipse-1.svg"
-      alt=""
-      class="bg-ellipse-1"
-    />
+  <div class="liquidations-view" :style="{ backgroundImage: `url(${mainBgGrid})` }">
+    <img src="@/assets/images/liquidations/ellipse-1.svg" alt="" class="bg-ellipse-1" />
 
     <div class="container mini">
       <h1>Learn More</h1>
 
       <div class="text-block">
         <p>
-          In Abracadabra Money, every BIM is backed by a certain ibTOKEN. Unlike
-          most protocols where all an individual's collateral is at risk of
-          liquidation to a liquidation event, here in Abracadabra each
-          Collateralized Debt Position(CDP) is isolated and only at risk of its
-          own individual liquidation.
+          In Abracadabra Money, every BIM is backed by a certain ibTOKEN. Unlike most protocols where all an
+          individual's collateral is at risk of liquidation to a liquidation event, here in Abracadabra each
+          Collateralized Debt Position(CDP) is isolated and only at risk of its own individual liquidation.
         </p>
 
         <p>
-          To clarify, if a wizard opens two CDPs with different xBOMBs, or even
-          two CDPs with the same type of xBOMBs, they are able to borrow BIMs
-          versus those xBOMBs individually, and set their risk tolerance
-          accordingly. So if they believe a certain xBOMB has a higher chance of
-          decreasing in value, they can choose to borrow less BIM versus that.
+          To clarify, if a wizard opens two CDPs with different xBOMBs, or even two CDPs with the same type of xBOMBs,
+          they are able to borrow BIMs versus those xBOMBs individually, and set their risk tolerance accordingly. So if
+          they believe a certain xBOMB has a higher chance of decreasing in value, they can choose to borrow less BIM
+          versus that.
         </p>
 
         <p>
-          That being said, there are still times when a wizards xBOMB collateral
-          value will fall below the Loan to Value ratio (LTV) and thus be
-          flagged for liquidation. In this event, 3rd party players (usually
-          bots) can choose to repay all of the BIM debt in exchange for the
-          xBOMB collateral used for that specific CDP. To incentivise these 3rd
-          parties, which keep the protocol healthy, wizards are not permitted to
-          borrow 100% of their value and the difference between the value of the
-          xBOMB and the BIM will be claimed by the liquidators.
+          That being said, there are still times when a wizards xBOMB collateral value will fall below the Loan to Value
+          ratio (LTV) and thus be flagged for liquidation. In this event, 3rd party players (usually bots) can choose to
+          repay all of the BIM debt in exchange for the xBOMB collateral used for that specific CDP. To incentivise
+          these 3rd parties, which keep the protocol healthy, wizards are not permitted to borrow 100% of their value
+          and the difference between the value of the xBOMB and the BIM will be claimed by the liquidators.
         </p>
       </div>
     </div>
 
     <div class="images-scene-wrap">
-      <img
-        src="@/assets/images/liquidations/dragon.svg"
-        alt=""
-        class="dragon"
-      />
-      <img
-        src="@/assets/images/liquidations/skull.svg"
-        alt=""
-        class="skull-1"
-      />
-      <img
-        src="@/assets/images/liquidations/princess.svg"
-        alt=""
-        class="princess"
-      />
-      <img
-        src="@/assets/images/liquidations/skull.svg"
-        alt=""
-        class="skull-2"
-      />
+      <img src="@/assets/images/liquidations/dragon.svg" alt="" class="dragon" />
+      <img src="@/assets/images/liquidations/skull.svg" alt="" class="skull-1" />
+      <img src="@/assets/images/liquidations/princess.svg" alt="" class="princess" />
+      <img src="@/assets/images/liquidations/skull.svg" alt="" class="skull-2" />
     </div>
 
     <div class="container mini">
       <h3 class="title">Let's use some numbers.</h3>
 
       <p>
-        Merlin the wizard has some yvWETH (an xBOMB) of a value of 1000 USD.
-        This token has LTV of 75%. Merlin is a mad wizard and he decides to
-        borrow the maximum allowance and receives 750 BIM tokens which he uses
-        to buy ink for his magic spell book.
+        Merlin the wizard has some yvWETH (an xBOMB) of a value of 1000 USD. This token has LTV of 75%. Merlin is a mad
+        wizard and he decides to borrow the maximum allowance and receives 750 BIM tokens which he uses to buy ink for
+        his magic spell book.
       </p>
 
-      <p>
-        Zoltac the Dark, has a golem set to watch this CDP and is ready to
-        liquidate at a moments notice.
-      </p>
+      <p>Zoltac the Dark, has a golem set to watch this CDP and is ready to liquidate at a moments notice.</p>
 
       <div class="write-block">
-        <img
-          src="@/assets/images/liquidations/write.svg"
-          alt=""
-          class="write-img"
-        />
+        <img src="@/assets/images/liquidations/write.svg" alt="" class="write-img" />
 
         <p>
-          As fate would have it, the value of yvWETH drops somewhat and Merlin’s
-          collateral is no longer worth 1000USD meaning that he doesn't have 25%
-          more collateral value than his debt. So, Zoltac the Dark’s golem can
-          go to work on this CDP and liquidate it. Zoltac the Dark pays off the
-          owed BIM, takes those magical yvWETH tokens into his possession.
-          However, Merlin is not terribly off, as he still has those BIM tokens,
-          well the ones he didn’t spend on magic ink, and he no longer has to
-          pay off his debt.
+          As fate would have it, the value of yvWETH drops somewhat and Merlin’s collateral is no longer worth 1000USD
+          meaning that he doesn't have 25% more collateral value than his debt. So, Zoltac the Dark’s golem can go to
+          work on this CDP and liquidate it. Zoltac the Dark pays off the owed BIM, takes those magical yvWETH tokens
+          into his possession. However, Merlin is not terribly off, as he still has those BIM tokens, well the ones he
+          didn’t spend on magic ink, and he no longer has to pay off his debt.
         </p>
       </div>
 
       <p>
-        There are a few important points of note regarding liquations that
-        should be highlighted very clearly. These points set Abracadabra apart
-        and can determine whether wizards will meet the same fate as Merlin did.
+        There are a few important points of note regarding liquations that should be highlighted very clearly. These
+        points set Abracadabra apart and can determine whether wizards will meet the same fate as Merlin did.
       </p>
 
       <h3 class="title">They are:</h3>
 
+      <p>Abracadabra uses xBOMB that go up in value on their own regardless of price action.</p>
       <p>
-        Abracadabra uses xBOMB that go up in value on their own regardless of
-        price action.
+        BIM has interest so if a collateral, for some reason or another, does not increase in value, liquidations can
+        happen. To reduce this risk, the team has selected xBOMBs that have a track record of increasing in value at a
+        rate that far exceeds the interest rate on BIM debt.
       </p>
       <p>
-        BIM has interest so if a collateral, for some reason or another, does
-        not increase in value, liquidations can happen. To reduce this risk, the
-        team has selected xBOMBs that have a track record of increasing in value
-        at a rate that far exceeds the interest rate on BIM debt.
+        Price action of underlying tokens in some of the xBOMBs can be quite volatile. To reduce this risk, the team has
+        set tokens that have price action to a LTV maximum of 75%
       </p>
       <p>
-        Price action of underlying tokens in some of the xBOMBs can be quite
-        volatile. To reduce this risk, the team has set tokens that have price
-        action to a LTV maximum of 75%
-      </p>
-      <p>
-        Abracadabra allows for the use of xBOMB with underlying stablecoins as
-        collateral with a LTV of 90%. Although it may unlikely that these xBOMBs
-        will decrease in USD value it’s not an impossibility as the underlying
-        tkns may lose their price peggs from unforeseeable events. The 90%
-        maximum also, incentives 3rd parties to liquidate these positions when
-        applicable.
+        Abracadabra allows for the use of xBOMB with underlying stablecoins as collateral with a LTV of 90%. Although it
+        may unlikely that these xBOMBs will decrease in USD value it’s not an impossibility as the underlying tkns may
+        lose their price peggs from unforeseeable events. The 90% maximum also, incentives 3rd parties to liquidate
+        these positions when applicable.
       </p>
 
       <p class="small-text">
-        Although any person can perform a liquidation, it has become standard
-        that these functions are performed by bots. Because of this, there is no
-        need for a UI on the main site for this function. However, 3rd parties
-        that wish to perform this function can reference the Technicals page.
+        Although any person can perform a liquidation, it has become standard that these functions are performed by
+        bots. Because of this, there is no need for a UI on the main site for this function. However, 3rd parties that
+        wish to perform this function can reference the Technicals page.
       </p>
     </div>
   </div>
 </template>
 
 <script>
-import mainBgGrid from "@/assets/images/main-grid.svg";
+import mainBgGrid from '@/assets/images/main-grid.svg';
 export default {
   data() {
     return {

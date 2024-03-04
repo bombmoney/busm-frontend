@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const StandTable = () => import("@/components/Stand/Table");
+const StandTable = () => import('@/components/Stand/Table');
 
 export default {
   components: {
@@ -30,8 +30,8 @@ export default {
     const isConnected = this.$store.getters.getWalletIsConnected;
 
     if (!isConnected) {
-      this.$router.push({ name: "Home" });
-      alert("Connect wallet first");
+      this.$router.push({ name: 'Home' });
+      alert('Connect wallet first');
       return false;
     }
   },

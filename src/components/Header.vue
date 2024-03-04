@@ -27,12 +27,7 @@
           >Docs</a
         > -->
 
-        <a
-          href="https://pancakeswap.finance/swap?outputCurrency=0xA677a11A6d3abb32F1E195db5650b147577194c6"
-          target="_blank"
-          class="nav-link"
-          >swap</a
-        >
+        <a href="https://swap.bim.money" target="_blank" class="nav-link">swap</a>
 
         <!-- <p class="nav-link" @click="showSwapPopup">Swap</p> -->
         <a href="https://app.bomb.money/xbomb" target="_blank" class="nav-link">Get xBOMB</a>

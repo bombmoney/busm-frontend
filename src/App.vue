@@ -11,26 +11,21 @@
       <PopupsWrapper v-if="showPopup" />
     </template>
 
-    <MetamaskChecker
-      @checkSuccess="metamaskCheckSuccess"
-      @checkError="metamaskCheckError"
-    />
+    <MetamaskChecker @checkSuccess="metamaskCheckSuccess" @checkError="metamaskCheckError" />
 
     <NotificationContainer />
   </div>
 </template>
 
 <script>
-const Header = () => import("@/components/Header");
-const Footer = () => import("@/components/Footer");
-const Banner = () => import("@/components/UiComponents/Banner");
-const PopupsWrapper = () => import("@/components/Popups/PopupWrapper");
-const NotificationContainer = () =>
-  import("@/components/Notifications/NotificationContainer");
-const MetamaskChecker = () =>
-  import("@/components/MetamaskChecker/MetamaskChecker");
+const Header = () => import('@/components/Header');
+const Footer = () => import('@/components/Footer');
+const Banner = () => import('@/components/UiComponents/Banner');
+const PopupsWrapper = () => import('@/components/Popups/PopupWrapper');
+const NotificationContainer = () => import('@/components/Notifications/NotificationContainer');
+const MetamaskChecker = () => import('@/components/MetamaskChecker/MetamaskChecker');
 
-import poolsMixin from "@/mixins/pools.js";
+import poolsMixin from '@/mixins/pools.js';
 //import farmPoolsMixin from "@/mixins/farmPools.js";
 //import swapMixin from "@/mixins/swap.js";
 
@@ -44,7 +39,7 @@ export default {
   },
   computed: {
     showBanner() {
-      return this.$store.getters.getShowBanner === "show";
+      return this.$store.getters.getShowBanner === 'show';
     },
     showPopup() {
       return this.$store.getters.getPopupState;
@@ -52,7 +47,7 @@ export default {
   },
   methods: {
     async metamaskCheckSuccess() {
-      console.log("CHECK COMPLETE");
+      console.log('CHECK COMPLETE');
       await this.createPools();
       // await this.createFarmPools();
       // await this.initSwap();
@@ -65,7 +60,7 @@ export default {
       // }, 5000);
     },
     metamaskCheckError(message) {
-      console.log("CHECK COMPLETE");
+      console.log('CHECK COMPLETE');
       clearInterval(this.farmPoolsTimer);
       this.checkInProcess = false;
 
@@ -87,9 +82,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import url("styles/_fonts.scss");
-@import url("styles/_animations.scss");
-@import "~normalize.css";
+@import url('styles/_fonts.scss');
+@import url('styles/_animations.scss');
+@import '~normalize.css';
 
 * {
   box-sizing: border-box;
@@ -177,7 +172,7 @@ h3 {
 }
 
 #app {
-  font-family: "Sofia Pro", sans-serif;
+  font-family: 'Sofia Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -192,7 +187,7 @@ h3 {
 .tooltip {
   display: block !important;
   z-index: 10000;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: 'Sofia Pro', sans-serif;
 
   .tooltip-inner {
     background: $clrBg2;
@@ -214,7 +209,7 @@ h3 {
     z-index: 1;
   }
 
-  &[x-placement^="top"] {
+  &[x-placement^='top'] {
     margin-bottom: 5px;
 
     .tooltip-arrow {
@@ -229,7 +224,7 @@ h3 {
     }
   }
 
-  &[x-placement^="bottom"] {
+  &[x-placement^='bottom'] {
     margin-top: 5px;
 
     .tooltip-arrow {
@@ -244,7 +239,7 @@ h3 {
     }
   }
 
-  &[x-placement^="right"] {
+  &[x-placement^='right'] {
     margin-left: 5px;
 
     .tooltip-arrow {
@@ -259,7 +254,7 @@ h3 {
     }
   }
 
-  &[x-placement^="left"] {
+  &[x-placement^='left'] {
     margin-right: 5px;
 
     .tooltip-arrow {
@@ -274,13 +269,13 @@ h3 {
     }
   }
 
-  &[aria-hidden="true"] {
+  &[aria-hidden='true'] {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.15s, visibility 0.15s;
   }
 
-  &[aria-hidden="false"] {
+  &[aria-hidden='false'] {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.15s;
